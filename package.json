@@ -14,7 +14,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npm-run-all build:css build:html --silent",
-    "build:css": "node-sass src/site/include/sass/style.sass > src/site/css/style.css",
+    "build:css": "node-sass src/include/sass/style.sass > src/css/style.css",
     "build:html": "eleventy",
     "watch": "nodemon -w src --exec \"npm run build -s\" --ext \"md,sass\"",
     "start": "npm run watch"
