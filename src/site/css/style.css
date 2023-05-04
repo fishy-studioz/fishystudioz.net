@@ -1,2 +1,12 @@
-h1 {
-  font-size: 2em; }
+* {
+  font-family: "Open Sans", sans-serif; }
+
+body {
+  background-color: #222;
+  color: #fff; }
+
+a {
+  color: #fff;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
