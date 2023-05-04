@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../../../src/assets/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../../../src/css/style.css">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">GitHub</a></li>
+        <li><a href="#">Discord</a></li>
+        <li><a href="#">Join Us!</a></li>
+      </ul>
+    </nav>
+    <main>
+      {{ content | safe }}
+    </main>
+    <footer>
+      <hr>
+      <p>Copyright &copy; {{ creation_date | date("YYYY") }}, Paragon Studios</p>
+    </footer>
+  </body>
+</html>
