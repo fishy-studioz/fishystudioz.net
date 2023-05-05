@@ -3,7 +3,6 @@ layout: page.liquid
 title: Contributing | Paragon Studios
 ---
 
-# Contributing
 ### So you wanna help us? It's easy!
 
 <br><br>

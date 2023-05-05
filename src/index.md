@@ -3,7 +3,6 @@ layout: page.liquid
 title: Paragon Studios | Roblox Development
 ---
 
-# Paragon Studios
 ### A team of volunteer developers, creating awesome things for Roblox and beyond.
 
 
