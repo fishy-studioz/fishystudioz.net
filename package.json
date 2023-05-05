@@ -14,7 +14,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npm-run-all build:css build:html build:fix-css build:fix-assets build:remove-garbage --silent",
-    "build:css": "node-sass _includes/sass/style.sass > src/css/style.css",
+    "build:css": "mkdir -p src/css && node-sass _includes/sass/style.sass > src/css/style.css",
     "build:html": "eleventy",
     "build:fix-css": "mv _site/src/css _site/src/css_DEL && cp -rf src/css _site/src/css",
     "build:fix-assets": "mv _site/src/assets _site/src/assets_DEL && cp -rf src/assets _site/src/assets",
