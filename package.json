@@ -13,13 +13,13 @@
   "description": "website for paragon studios",
   "main": "index.js",
   "scripts": {
-    "build": "npm-run-all build:css build:html build:fix-css build:fix-assets build:remove-garbage --silent",
-    "build:css": "mkdir -p src/css && node-sass _includes/sass/style.sass > src/css/style.css",
+    "build": "npm-run-all build:css build:html build:fix",
+    "build:css": "mkdir -p _site/src/css && node-sass _includes/sass/style.sass > _site/src/css/style.css",
     "build:html": "eleventy",
-    "build:fix-css": "[ -d _site/src/css ] || mv _site/src/css _site/src/css_DEL ; cp -rf src/css _site/src/css",
-    "build:fix-assets": "[ -d _site/src/assets ] || mv _site/src/assets _site/src/assets_DEL ; cp -rf src/assets _site/src/assets",
-    "build:remove-garbage": "rm -rf _site/README && rm -rf _site/src/css_DEL && rm -rf _site/src/assets_DEL",
-    "watch": "nodemon --exec \"npm run build -s\" --ext \"md,sass,njk\"",
+    "build:reset-assets": "mkdir -p _site/src/assets && mv _site/src/assets _site/src/assets_DEL && rm -rf _site/src/assets_DEL",
+    "build:remove-trash": "rm -rf _site/README",
+    "build:fix": "npm-run-all build:reset-assets build:remove-trash && cp -rf src/assets _site/src/assets",
+    "watch": "nodemon --exec \"npm run build -s \" --ext \"md,sass,njk\"",
     "start": "npm run watch"
   },
   "repository": {

@@ -4,9 +4,10 @@ title: Paragon Studios | Roblox Development
 ---
 
 # Paragon Studios
-### A Roblox development group
+
 
 <br><br>
+## About
 Paragon Studios is a development group on Roblox. We make games, services, templates, and more for Roblox.
 <br>
 We have a team of talented developers including:
