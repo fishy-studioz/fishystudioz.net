@@ -16,7 +16,7 @@ We have a team of talented developers including:
   <li class="listed"><span><a href="https://github.com/tofulot">tofulot (programmer)</a></span></li>
   <li class="listed"><span><a href="https://github.com/Axzurey">phxie (programmer)</a></span></li>
   <li class="listed"><span><a href="https://github.com/jackssrt">jackssrt (programmer)</a></span></li>
-  <li class="listed"><span><a href="https://github.com/The_Pr0fessor">The_Pr0fessor (programmer)</a></span></li>
+  <li class="listed"><span><a href="https://github.com/TrendonRobinson">The_Pr0fessor (programmer)</a></span></li>
   <li class="listed"><span><a href="https://marzu.artstation.com">Marzu (modeller)</a></span></li>
   <li class="listed"><span><a href="https://twitter.com/SenseActivity">SenseActive (modeller)</a></span></li>
   <li class="listed"><span><a href="https://www.youtube.com/@lordslebew9433/videos">grind (animator)</a></span></li>
