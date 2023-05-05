@@ -15,9 +15,10 @@
   "description": "website for paragon studios",
   "main": "index.js",
   "scripts": {
-    "build": "npm-run-all build:css build:html --silent && cp -r src/css _site/src/css && cp -r src/assets _site/src/assets",
+    "build": "npm-run-all build:css build:html build:fix --silent",
     "build:css": "node-sass _includes/sass/style.sass > src/css/style.css",
     "build:html": "eleventy",
+    "build:fix": "cp -r src/css _site/src/css && cp -r src/assets _site/src/assets",
     "watch": "nodemon --exec \"npm run build -s\" --ext \"md,sass,njk\"",
     "start": "npm run watch"
   },
