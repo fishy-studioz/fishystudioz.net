@@ -8,6 +8,7 @@ title: Paragon Studios | Roblox Development
 
 <br><br>
 Paragon Studios is a development group on Roblox. We make games, services, templates, and more for Roblox.
+<br>
 We have a team of talented developers including:
 <ul>
   <li class="listed"><span><a href="https://github.com/R-unic">Runic (lead programmer)</a></span></li>
