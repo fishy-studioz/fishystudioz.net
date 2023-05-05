@@ -12,7 +12,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run watch",
-    "watch": "nodemon --exec \"npm run build\" --ext \"md,sass,liquid,json\"",
+    "watch": "nodemon --exec \"npm run build -s\" --ext \"md,sass,liquid,json\"",
     "build": "npm-run-all build:css build:html build:fix build:extract-pages",
     "build:css": "mkdir -p _site/src/css && node-sass src/includes/sass/style.sass > _site/src/css/style.css",
     "build:html": "eleventy",
