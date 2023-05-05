@@ -13,10 +13,12 @@
   "description": "website for paragon studios",
   "main": "index.js",
   "scripts": {
-    "build": "npm-run-all build:css build:html build:fix --silent",
+    "build": "npm-run-all build:css build:html build:fix-css build:fix-assets build:remove-garbage --silent",
     "build:css": "node-sass _includes/sass/style.sass > src/css/style.css",
     "build:html": "eleventy",
-    "build:fix": "cp -r src/css _site/src/css && cp -r src/assets _site/src/assets && rm -rf _site/README",
+    "build:fix-css": "mv _site/src/css _site/src/css_DEL && cp -rf src/css _site/src/css",
+    "build:fix-assets": "mv _site/src/assets _site/src/assets_DEL && cp -rf src/assets _site/src/assets",
+    "build:remove-garbage": "rm -rf _site/README && rm -rf _site/src/css_DEL && rm -rf _site/src/assets_DEL",
     "watch": "nodemon --exec \"npm run build -s\" --ext \"md,sass,njk\"",
     "start": "npm run watch"
   },
