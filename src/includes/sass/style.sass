@@ -8,7 +8,12 @@ h1
   font-size: 32pt
 
 h2
-  font-size: 28pt
+  font-size: 26pt
+  font-weight: 600
+
+h3
+  font-size: 16pt
+  font-weight: 500
 
 main *
   margin-left: 25px
@@ -40,6 +45,10 @@ a
   &:not(:hover)
     color: $link-color
     transition: color $ease-time ease-in-out
+
+p
+  a
+    margin: 0
 
 $navbtn-color: #333
 $navbtn-color-hovered: #252729
@@ -104,6 +113,7 @@ footer
   color: white
   height: 65px
   text-align: center
-  p
-    margin-left: 15px
-    margin-right: 15px
+
+footer p
+  margin-left: 15px
+  margin-right: 15px
