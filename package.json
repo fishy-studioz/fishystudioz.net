@@ -1,26 +1,25 @@
 {
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
-    "nunjucks": "^3.2.4",
     "eleventy": "^1.0.6",
     "node-sass": "^8.0.0",
     "nodemon": "^2.0.22",
-    "npm-run-all": "^4.1.5",
-    "nunjucks-date": "^1.5.0"
+    "npm-run-all": "^4.1.5"
   },
   "name": "paragon-site",
   "version": "1.0.0",
   "description": "website for paragon studios",
   "main": "index.js",
   "scripts": {
-    "build": "npm-run-all build:css build:html build:fix",
-    "build:css": "mkdir -p _site/src/css && node-sass _includes/sass/style.sass > _site/src/css/style.css",
+    "start": "npm run watch",
+    "watch": "nodemon --exec \"npm run build\" --ext \"md,sass,liquid,json\"",
+    "build": "npm-run-all build:css build:html build:fix build:extract-pages",
+    "build:css": "mkdir -p _site/src/css && node-sass src/includes/sass/style.sass > _site/src/css/style.css",
     "build:html": "eleventy",
+    "build:extract-pages": "find _site/src -mindepth 2 -type f -name 'index.html' -exec sh -c 'if [ \"$(dirname \"$0\")\" != \"_site/src\" ]; then mv \"$0\" \"$(dirname \"$0\")/$(basename \"$(dirname \"$0\")\").html\" && mv \"$(dirname \"$0\")/$(basename \"$(dirname \"$0\")\").html\" \"_site/src/$(basename \"$(dirname \"$0\")\").html\" && rmdir \"$(dirname \"$0\")\"; fi' {} \\;",
     "build:reset-assets": "mkdir -p _site/src/assets && mv _site/src/assets _site/src/assets_DEL && rm -rf _site/src/assets_DEL",
     "build:remove-trash": "rm -rf _site/README",
-    "build:fix": "npm-run-all build:reset-assets build:remove-trash && cp -rf src/assets _site/src/assets",
-    "watch": "nodemon --exec \"npm run build -s \" --ext \"md,sass,njk\"",
-    "start": "npm run watch"
+    "build:fix": "npm-run-all build:reset-assets build:remove-trash && cp -rf src/assets _site/src/assets"
   },
   "repository": {
     "type": "git",
@@ -31,6 +30,8 @@
     "web",
     "website",
     "sass",
+    "liquid",
+    "eleventy",
     "paragon",
     "studios"
   ],
