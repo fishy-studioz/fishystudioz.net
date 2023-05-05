@@ -1,6 +1,6 @@
 ---
 layout: page.liquid
-title: Contributing | Paragon Studios
+title: Donate | Paragon Studios
 ---
 
 ### Considering donating? We appreciate it!
