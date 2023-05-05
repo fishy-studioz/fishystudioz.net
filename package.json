@@ -24,18 +24,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Paragon-Studios/Paragon-Site.git"
+    "url": "git+https://github.com/Paragon-Studios/Paragon-Studios.github.io.git"
   },
   "keywords": [
     "site",
     "web",
     "website",
-    "sass"
+    "sass",
+    "paragon",
+    "studios"
   ],
   "author": "R-unic, Paragon-Studios",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Paragon-Studios/Paragon-Site/issues"
+    "url": "https://github.com/Paragon-Studios/Paragon-Studios.github.io/issues"
   },
-  "homepage": "https://github.com/Paragon-Studios/Paragon-Site#readme"
+  "homepage": "https://paragon-studios.xyz/"
 }
