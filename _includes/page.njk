@@ -9,15 +9,13 @@
   <body>
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">GitHub</a></li>
-        <li><a href="#">Discord</a></li>
-        <li><a href="#">Join Us!</a></li>
+        <li><a class="navbtn" href="#">Home</a></li>
+        <li><a class="navbtn" href="#">GitHub</a></li>
+        <li><a class="navbtn" href="#">Discord</a></li>
+        <li><a class="navbtn" href="#">Join Us!</a></li>
       </ul>
     </nav>
-    <main>
-      {{ content | safe }}
-    </main>
+    <main>{{ content | safe }}</main>
     <footer>
       <hr>
       <p>Copyright &copy; {{ creation_date | date("YYYY") }}, Paragon Studios</p>
