@@ -7,7 +7,11 @@ title: Projects | Paragon Studios
 ### Any project that is a Roblox game will be on [our Roblox group](https://www.roblox.com/groups/4917010). All projects will be on our [GitHub](https://www.github.com/Paragon-Studios).
 
 <br><br>
-## Blackout
+## [Blackout](https://github.com/Paragon-Studios/Blackout)
 Blackout is a tactical FPS on Roblox, similar to [Rainbow 6: Siege](https://www.ubisoft.com/en-us/game/rainbow-six/siege).<br>
-We are far from done with this game currently, but you can view our progress on our [Blackout Trello](https://trello.com/invite/b/L8wlMW8e/ATTI6c0361c9ab6a36f3dd8669837e0cc9fe14DF01D7/blackout-game).<br>
+We are far from done with this game currently, but you can view our progress on our [Blackout Trello](https://trello.com/b/L8wlMW8e).<br>
 The game will feature realistic shooting mechanics, (hopefully) similar destruction physics to Rainbow 6, and slow-paced tactical gameplay.
+
+<br><br>
+## [roblox-cr](https://github.com/Paragon-Studios/roblox-cr)
+roblox-cr is a Crystal-to-Luau source-to-source compiler. It converts Crystal code into Luau code that is then run by the Roblox Engine.
