@@ -3,8 +3,7 @@ layout: page.liquid
 title: Fishy Studioz | Roblox Dev
 ---
 
-### A team of volunteer developers, creating awesome things for Roblox and beyond.
-
+### A small team of developers, creating awesome things for Roblox and beyond.
 
 <br><br>
 ## About

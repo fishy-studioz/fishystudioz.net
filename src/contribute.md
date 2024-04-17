@@ -7,7 +7,7 @@ title: Contributing | Fishy Studioz
 
 <br><br>
 ## Directly Contributing
-If you're a progammer would like access to our Studio/reposititories, join [our Discord](https://discord.gg/PgbKw8tjkf) and ask.<br>
+If you're a progammer would like access to our Studio/repositories, join [our Discord](https://discord.gg/PgbKw8tjkf) and ask.<br>
 If you are skilled in any field that isn't programming, you can also join and request anything you might need to work (rigs, models, etc.).<br>
 Also check out [our GitHub Org](https://github.com/fishy-studioz) (although most of our repositories are private).
 

@@ -3,7 +3,7 @@ layout: page.liquid
 title: Projects | Fishy Studioz
 ---
 
-### Any project that is a Roblox game will be on [our Roblox group](https://www.roblox.com/groups/5684670). Some projects will be public on our [GitHub](https://www.github.com/fishy-studioz).
+### Any project that is a Roblox game will be on [our Roblox group](https://www.roblox.com/groups/5684670). Some projects will be public on [our GitHub](https://www.github.com/fishy-studioz).
 
 <br><br>
 ## Overheat
