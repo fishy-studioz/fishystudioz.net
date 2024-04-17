@@ -1,6 +1,6 @@
 ---
 layout: page.liquid
-title: Paragon Studios | Roblox Development
+title: Fishy Studioz | Roblox Dev
 ---
 
 ### A team of volunteer developers, creating awesome things for Roblox and beyond.
@@ -8,20 +8,15 @@ title: Paragon Studios | Roblox Development
 
 <br><br>
 ## About
-Paragon Studios is a development group on Roblox. We make games, services, templates, and more for Roblox.<br>
-We have a team of talented developers including:
+Fishy Studioz is a development group on Roblox. We make games, services, and more.<br>
+We have a team of very talented developers including:
 <ul>
-  <li class="listed"><span><a href="https://github.com/R-unic">Runic (lead programmer)</a></span></li>
-  <li class="listed"><span><a href="https://github.com/adrrob1002">adrrob (programmer)</a></span></li>
-  <li class="listed"><span><a href="https://iliashdz.github.io/">IliasHDZ (programmer)</a></span></li>
-  <li class="listed"><span><a href="https://github.com/tofulot">tofulot (programmer)</a></span></li>
-  <li class="listed"><span><a href="https://github.com/Axzurey">phxie (programmer)</a></span></li>
-  <li class="listed"><span><a href="https://github.com/jackssrt">jackssrt (programmer)</a></span></li>
-  <li class="listed"><span><a href="https://github.com/OminousVibes">OminousVibes (programmer)</a></span></li>
-  <li class="listed"><span><a href="https://trendonrobinson.github.io/">The_Pr0fessor (programmer)</a></span></li>
-  <li class="listed"><span><a href="https://marzu.artstation.com">Marzu (modeller)</a></span></li>
-  <li class="listed"><span><a href="https://twitter.com/SenseActivity">SenseActive (modeller)</a></span></li>
-  <li class="listed"><span><a href="https://youtube.com/@SinisterOyster">SinisterOyster (animator)</a></span></li>
-  <li class="listed"><span><a href="https://www.youtube.com/@lordslebew9433/videos">grind (animator)</a></span></li>
-  <li class="listed"><span><a href="https://www.instagram.com/zylodzn/">zylodzn (graphic designer)</a></span></li>
+  <li class="listed"><span><a href="https://twitter.com/CharSiewGuy">CharSiewGuy (founder & programmer)</a></span></li>
+  <li class="listed"><span><a href="https://github.com/R-unic">Runic (better programmer)</a></span></li>
+  <li class="listed"><span><a href="https://www.youtube.com/channel/UCiIP0epvbOHArVE7DnWKjNw">xdzero (animator)</a></span></li>
+  <li class="listed"><span><a href="https://twitter.com/JoshButNitwit">How'sLifeJosh (animator)</a></span></li>
+  <li class="listed"><span><a href="https://youtube.com/@SeeSaw_User.?si=AkZitNQUuqHnNtnW">Cheesed (composer)</a></span></li>
+  <li class="listed"><span><a href="https://www.youtube.com/channel/UCMDOrCbbOu5fygP9pRmEOAQ">F_Toast (game designer)</a></span></li>
+  <li class="listed"><span><a href="https://twitter.com/RedVFX2">RedVFX (art director)</a></span></li>
+  <li class="listed"><span>Typical (VFX)</span></li>
 </ul>
