@@ -30,7 +30,9 @@ body
   display: flex
   flex-direction: column
 
+$navbar-height: 55px
 main
+  padding-top: $navbar-height
   flex: 1
 
 $ease-time: 0.2s
@@ -54,7 +56,6 @@ p
 
 $navbtn-color: #333
 $navbtn-color-hovered: #252729
-$navbar-height: 55px
 $navbtn-height: ceil($navbar-height / 2) - 5px
 @mixin navbtn
   display: flex
@@ -75,10 +76,13 @@ $navbtn-height: ceil($navbar-height / 2) - 5px
     background-color: $navbtn-color
     transition: background-color $ease-time ease-in-out
 
-.top-right
-  position: absolute
-  top: $navbar-height * 1.6
-  right: 10px
+$footer-height: 65px
+.discord-widget
+  position: fixed
+  padding-top: $navbar-height + $footer-height
+  position: 50%
+  right: 15px
+  z-index: 1030
 
 a.navbtn
   @include navbtn
@@ -92,9 +96,13 @@ a.home
     height: $navbar-height / 1.15
 
 nav
+  display: inline-block
+  position: fixed
+  top: 0
+  width: 100%
+  z-index: 1030
   background-color: $navbtn-color
   height: $navbar-height
-  display: inline-block
   ul
     list-style-type: none
     margin: 0
@@ -120,7 +128,7 @@ li.listed
 footer
   background-color: #333
   color: white
-  height: 65px
+  height: $footer-height
   text-align: center
 
 footer p
