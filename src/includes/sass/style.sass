@@ -27,8 +27,8 @@ body
   background-color: $background-color
   color: #fff
   margin: 0
-  display: flex;
-  flex-direction: column;
+  display: flex
+  flex-direction: column
 
 main
   flex: 1
@@ -55,11 +55,17 @@ p
 $navbtn-color: #333
 $navbtn-color-hovered: #252729
 $navbar-height: 55px
+$navbtn-height: ceil($navbar-height / 2) - 5px
 @mixin navbtn
+  display: flex
   font-weight: bold
-  max-height: 23px
+  max-height: $navbtn-height
+  height: $navbtn-height
   color: white
+  align-items: center
+  justify-content: center
   text-align: center
+  text-justify: center
   padding: 16px
   text-decoration: none
   &:hover
@@ -69,15 +75,16 @@ $navbar-height: 55px
     background-color: $navbtn-color
     transition: background-color $ease-time ease-in-out
 
+.top-right
+  position: absolute
+  top: $navbar-height * 1.6
+  right: 10px
+
 a.navbtn
   @include navbtn
-  display: block
 
 a.home
   @include navbtn
-  display: flex
-  align-items: center
-  justify-content: center
   max-width: $navbar-height / 2
   img
     object-fit: contain
