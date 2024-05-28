@@ -8,6 +8,7 @@ title: Projects | Fishy Studioz
 <br><br>
 ## Overheat
 In-dev PvE FPS game that will be UFG's successor.<br>
+[Join the game Discord server](https://discord.gg/PgbKw8tjkf)<br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qobhXdgRvGo?si=gvjeOvfVlnOTpzjE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## [Untitled FPS Game](https://www.roblox.com/games/9541558008)

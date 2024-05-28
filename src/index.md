@@ -14,8 +14,6 @@ We have a team of very talented developers including:
   <li class="listed"><span><a href="https://github.com/R-unic">Runic (better programmer)</a></span></li>
   <li class="listed"><span><a href="https://www.youtube.com/channel/UCiIP0epvbOHArVE7DnWKjNw">xdzero (animator)</a></span></li>
   <li class="listed"><span><a href="https://twitter.com/JoshButNitwit">How'sLifeJosh (animator)</a></span></li>
-  <li class="listed"><span><a href="https://youtube.com/@SeeSaw_User.?si=AkZitNQUuqHnNtnW">Cheesed (composer)</a></span></li>
-  <li class="listed"><span><a href="https://www.youtube.com/channel/UCMDOrCbbOu5fygP9pRmEOAQ">F_Toast (game designer)</a></span></li>
   <li class="listed"><span><a href="https://twitter.com/RedVFX2">RedVFX (art director)</a></span></li>
   <li class="listed"><span><a href="https://twitter.com/TypicalXYZ">Typical (VFX)</a></span></li>
 </ul>
