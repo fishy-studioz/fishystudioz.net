@@ -1,4 +1,9 @@
+const { configDotenv } = require("dotenv");
+
+configDotenv();
+
 module.exports = function(eleventyConfig) {
+  eleventyConfig.addGlobalData("env", process.env);
   eleventyConfig.addFilter("reverse", value => value.split("").reverse().join(""));
   eleventyConfig.addFilter("uppercase", value => value.toUpperCase());
   eleventyConfig.addFilter("titlecase", value => value.toLowerCase().replace(/(^|\s)\S/g));
