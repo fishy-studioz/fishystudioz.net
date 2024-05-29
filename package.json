@@ -9,7 +9,7 @@
     "build:create-buildsite": "mkdirp _site/src/css",
     "build:css": "node-sass ./src/includes/sass/style.sass > ./_site/src/css/style.css",
     "build:html": "eleventy",
-    "build:extract-pages": "node scripts/extract-page.js",
+    "build:extract-pages": "node scripts/extract-pages.js",
     "build:reset-assets": "mkdirp _site/src/assets && move-cli _site/src/assets _site/src/assets_DEL && st-rm-rf _site/src/assets_DEL",
     "build:remove-trash": "st-rm-rf _site/README",
     "build:fix": "npm-run-all build:reset-assets build:remove-trash && st-cp src/assets _site/src/assets"
