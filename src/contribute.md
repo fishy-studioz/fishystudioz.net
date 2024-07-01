@@ -7,7 +7,7 @@ title: Contributing | Fishy Studioz
 
 <br><br>
 ## Directly Contributing
-If you are skilled in any field that isn"t programming, you can join our Discord server on the right side of the page and ask if we could use any help from your field of work.<br>
+If you are skilled in any field that isn't programming, you can join our Discord server on the right side of the page and ask if we could use any help from your field of work.<br>
 
 Also check out [our GitHub Organization](https://github.com/fishy-studioz) (although most of our repositories are private).<br>
 To contribute to any (public) repository:
