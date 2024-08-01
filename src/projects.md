@@ -7,7 +7,7 @@ title: Projects | Fishy Studioz
 
 {% assign ghpat = env.GHPAT %}
 <script>
-  function timeAgo(timestamp, prefix = "released") {
+  function timeAgo(timestamp, prefix = "released ") {
     const date = new Date(timestamp);
     const now = new Date;
     const seconds = Math.floor((now - date) / 1000);
@@ -22,49 +22,41 @@ title: Projects | Fishy Studioz
     for (let interval in intervals)
       if (seconds >= intervals[interval]) {
         const count = Math.floor(seconds / intervals[interval]);
-        return `${prefix} ${count} ${interval}${count !== 1 ? "s" : ""} ago`;
+        return `${prefix}${count} ${interval}${count !== 1 ? "s" : ""} ago`;
       }
 
-    return `${prefix} ${seconds} second${seconds !== 1 ? "s" : ""} ago`;
+    return `${prefix}${seconds} second${seconds !== 1 ? "s" : ""} ago`;
   }
 
-  document.addEventListener("DOMContentLoaded", () => {
+  document.addEventListener("DOMContentLoaded", async () => {
     const repoAPI = "https://api.github.com/repos/fishy-studioz/overheat";
-    {
-      const ohv0Version = document.getElementById("ohv0-version");
-      const commitsSinceOhv0Version  = document.getElementById("commits-since-ohv0-version");
-      const pat = "{{ ghpat }}";
-      const headers = { "authorization": `token ${pat}` };
+    const ohv0Version = document.getElementById("ohv0-version");
+    const commitsSinceOhv0Release  = document.getElementById("commits-since-ohv0-release");
+    const timeSinceOhv0Release  = document.getElementById("time-since-ohv0-release");
+    const pat = "{{ ghpat }}";
+    const headers = { "authorization": `token ${pat}` };
 
-      fetch(`${repoAPI}/tags`, { headers })
-        .then(response => response.json())
-        .then(([tag]) => {
-          const tagName = tag?.name ?? "Not Found";
-          ohv0Version.textContent = tagName;
+    const [tag] = await fetch(`${repoAPI}/tags`, { headers }).then(response => response.json());
+    const tagName = tag?.name ?? "Not Found";
+    ohv0Version.textContent = tagName;
 
-          fetch(`${repoAPI}/commits/${tag.commit.sha}`, { headers })
-            .then(response => response.json())
-            .then(({ commit: { committer: { date } } }) => {
-              ohv0Version.textContent = `${tagName} (${timeAgo(date)})`;
-              fetch(`${repoAPI}/commits?sha=master&since=${date}`, { headers })
-                .then(response => response.json())
-                .then(commitsSinceRelease => {
-                  if (commitsSinceRelease.length > 0)
-                    commitsSinceRelease.pop();
-
-                  commitsSinceOhv0Version.textContent = commitsSinceRelease.length
-                });
-
-            });
-        });
-    }
+    const { commit } = await fetch(`${repoAPI}/commits/${tag.commit.sha}`, { headers }).then(response => response.json());
+    ohv0Version.textContent = `${tagName} (${timeAgo(commit.committer.date)})`;
+    
+    const commitsSinceRelease = await fetch(`${repoAPI}/commits?sha=master&since=${commit.committer.date}`, { headers }).then(response => response.json());
+    if (commitsSinceRelease.length > 0)
+      commitsSinceRelease.pop();
+    
+    const [latestCommit] = commitsSinceRelease.map(ref => ref.commit);
+    commitsSinceOhv0Release.textContent = commitsSinceRelease.length;
+    timeSinceOhv0Release.textContent = timeAgo(latestCommit.committer.date, "");
   });
 </script>
 
 <br><br>
 ## Overheat
 ### Current development version: <b><span id="ohv0-version"></span></b>
-### <b><span id="commits-since-ohv0-version"></span></b> commits since last release<br><br>
+### <b><span id="commits-since-ohv0-release"></span></b> commits since last release (<b><span id="time-since-ohv0-release"></span></b>)<br><br>
 Our main project! An in-dev PvE FPS game that will be UFG's successor.<br>
 Join the game's Discord server on the right side of the page or follow CharSiewGuy on Twitter for more updates!<br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dGjl5JDy3rU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
