@@ -16,4 +16,5 @@ We have a team of very talented developers including:
   <li class="listed"><span><a href="https://twitter.com/JoshButNitwit">How'sLifeJosh (animator)</a></span></li>
   <li class="listed"><span><a href="https://twitter.com/RedVFX2">RedVFX (art director)</a></span></li>
   <li class="listed"><span><a href="https://twitter.com/TypicalXYZ">Typical (VFX)</a></span></li>
+  <li class="listed"><span><a href="https://twitter.com/mrdanpandan">39dan (advisor)</a></span></li>
 </ul>
