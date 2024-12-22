@@ -15,5 +15,7 @@ We have a team of very talented developers including:
   <li class="listed"><span><a href="https://www.youtube.com/channel/UCiIP0epvbOHArVE7DnWKjNw">xdzero (animator)</a></span></li>
   <li class="listed"><span><a href="https://twitter.com/JoshButNitwit">How'sLifeJosh (animator)</a></span></li>
   <li class="listed"><span><a href="https://twitter.com/RedVFX2">RedVFX (art director)</a></span></li>
+  <li class="listed"><span><a href="https://leesu220.artstation.com">Lee (3D artist)</a></span></li>
   <li class="listed"><span><a href="https://twitter.com/TypicalXYZ">Typical (VFX)</a></span></li>
+  <li class="listed"><span><a href="https://open.spotify.com/artist/0HrtPfvpLfhGNE3suMtNLk">MyTrumpCard (composer)</a></span></li>
 </ul>
