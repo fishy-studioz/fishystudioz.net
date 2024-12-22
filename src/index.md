@@ -18,4 +18,5 @@ We have a team of very talented developers including:
   <li class="listed"><span><a href="https://leesu220.artstation.com">Lee (3D artist)</a></span></li>
   <li class="listed"><span><a href="https://twitter.com/TypicalXYZ">Typical (VFX)</a></span></li>
   <li class="listed"><span><a href="https://open.spotify.com/artist/0HrtPfvpLfhGNE3suMtNLk">MyTrumpCard (composer)</a></span></li>
+  <li class="listed"><span><a href="https://twitter.com/mrdanpandan">39dan (advisor)</a></span></li>
 </ul>
