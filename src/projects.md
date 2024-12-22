@@ -7,6 +7,7 @@ title: Projects | Fishy Studioz
 
 {% assign ghpat = env.GHPAT %}
 <script>
+  // TODO: move this bullshit to a separate file
   function timeAgo(timestamp, prefix = "released ") {
     const date = new Date(timestamp);
     const now = new Date;
@@ -59,7 +60,7 @@ title: Projects | Fishy Studioz
 ### <b><span id="commits-since-ohv0-release"></span></b> commits since last release (<b><span id="time-since-ohv0-release"></span></b>)<br><br>
 Our main project! An in-dev PvE FPS game that will be UFG's successor.<br>
 Join the game's Discord server on the right side of the page or follow CharSiewGuy on Twitter for more updates!<br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dGjl5JDy3rU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F1d8Q_7BMKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
 
 ## [Untitled FPS Game](https://www.roblox.com/games/9541558008)
 Welcome to Untitled FPS Game. This movement-based chaotic experience melds multiple mechanics together into a fluid gameplay loop where you kill, move, and kill again.<br>
