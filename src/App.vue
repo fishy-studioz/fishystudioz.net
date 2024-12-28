@@ -1,23 +1,38 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import { RouterLink } from "vue-router";
+import Page from "./components/Page.vue";
+</script>
+
+<script lang="ts">
+export default {
+  components: {
+    Page
+  },
+  data() {
+    return {
+      currentTitle: "", // Holds the title for the <Page> component
+    };
+  },
+  methods: {
+    updateTitle(title: string): void {
+      this.currentTitle = title;
+    }
+  }
+};
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/" @click="updateTitle('Home')">Home</RouterLink>
       </nav>
+      <nav>
+        <RouterLink to="/projects" @click="updateTitle('Projects')">Projects</RouterLink>
+      </nav>
+      <Page :title="currentTitle" />
     </div>
   </header>
-
-  <RouterView />
 </template>
 
 <style scoped>
