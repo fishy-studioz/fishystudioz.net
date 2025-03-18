@@ -1,3 +1,8 @@
+---
+layout: page.liquid
+title: Projects | Fishy Studioz
+---
+
 # Overheat
 
 <script>

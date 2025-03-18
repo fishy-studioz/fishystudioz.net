@@ -1,3 +1,8 @@
+---
+layout: page.liquid
+title: UFG | Fishy Studioz
+---
+
 # Untitled FPS Game
 ## [Game link](https://www.roblox.com/games/9541558008)
 Welcome to Untitled FPS Game. This movement-based chaotic experience melds multiple mechanics together into a fluid gameplay loop where you kill, move, and kill again.<br>
