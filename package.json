@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon --exec \"npm run build -s\" --ext \"md,sass,js,liquid\"",
-    "build": "npm i && npm-run-all build:create-buildsite build:css build:html build:fix",
+    "build": "NODE_ENV=production && npm i && npm-run-all build:create-buildsite build:css build:html build:fix",
     "build:create-buildsite": "mkdir -p _site/src/css",
     "build:css": "sass src/includes/sass/style.sass > _site/src/css/style.css",
     "build:html": "eleventy",

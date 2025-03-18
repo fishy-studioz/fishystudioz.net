@@ -2,7 +2,8 @@ const { configDotenv } = require("dotenv");
 
 configDotenv();
 
-module.exports = function(eleventyConfig) {
+module.exports = function (eleventyConfig) {
+  console.log("Eleventy sees GHPAT:", process.env.GHPAT);
   eleventyConfig.addGlobalData("env", process.env);
   eleventyConfig.addFilter("reverse", value => value.split("").reverse().join(""));
   eleventyConfig.addFilter("uppercase", value => value.toUpperCase());
