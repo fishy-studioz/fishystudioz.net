@@ -6,7 +6,6 @@ title: Overheat | Fishy Studioz
 <script>
   const ghpat = "{{ ghpat }}";
 </script>
-{% assign ghpat = env.GHPAT %}
 <script src="assets/scripts/assign-ohv0-version-info.js" defer></script>
 
 ### Current development version: <b><span id="ohv0-version"></span></b>
