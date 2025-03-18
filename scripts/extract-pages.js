@@ -7,7 +7,7 @@ const searchPath = "_site/src/**/index.html";
 try {
   const files = globSync(searchPath);
   for (const file of files) {
-    const dirName = file.split(path.sep).slice(0, -1).join(path.sep);
+    const dirName = file.split(sep).slice(0, -1).join(sep);
     if (normalize(dirName) === normalize("_site/src")) continue;
 
     const newFileName = `${dirName.split(sep).slice(-1)}.html`;
