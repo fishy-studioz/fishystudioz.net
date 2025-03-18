@@ -1,6 +1,6 @@
 ---
 layout: page.liquid
-title: Projects | Fishy Studioz
+title: Overheat | Fishy Studioz
 ---
 
 # Overheat
@@ -9,7 +9,7 @@ title: Projects | Fishy Studioz
   const ghpat = "{{ ghpat }}";
 </script>
 {% assign ghpat = env.GHPAT %}
-<script src="/scripts/assign-ohv0-version-info.js" defer></script>
+<script src="assets/scripts/assign-ohv0-version-info.js" defer></script>
 
 ### Current development version: <b><span id="ohv0-version"></span></b>
 ### <b><span id="commits-since-ohv0-release"></span></b> commits since last release (<b><span id="time-since-ohv0-release"></span></b>)<br><br>
