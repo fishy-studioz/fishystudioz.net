@@ -3,7 +3,6 @@ const { config } = require("dotenv");
 config();
 
 module.exports = function (eleventyConfig) {
-  console.log("env:", process.env);
   eleventyConfig.addGlobalData("env", process.env);
   eleventyConfig.addFilter("reverse", value => value.split("").reverse().join(""));
   eleventyConfig.addFilter("uppercase", value => value.toUpperCase());
