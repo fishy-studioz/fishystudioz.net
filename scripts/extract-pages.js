@@ -1,6 +1,6 @@
-const fs = require("fs-extra");
 const { globSync } = require("glob");
-const path = require("path");
+const { normalize, sep } = require("path");
+const { moveSync, removeSync } = require("fs-extra");
 
 const searchPath = "_site/src/**/index.html";
 
@@ -8,21 +8,24 @@ try {
   const files = globSync(searchPath);
   for (const file of files) {
     const dirName = file.split(path.sep).slice(0, -1).join(path.sep);
-    if (path.normalize(dirName) === path.normalize("_site/src")) continue;
+    if (normalize(dirName) === normalize("_site/src")) continue;
 
-    const newFileName = `${dirName.split(path.sep).slice(-1)}.html`;
+    const newFileName = `${dirName.split(sep).slice(-1)}.html`;
     const newPath = `_site/src/${newFileName}`;
-    fs.move(file, newPath, { overwrite: true }, err => {
-      if (err)
-        return console.error(`Error moving file ${file}:`, err);
+    try {
+      moveSync(file, newPath, { overwrite: true });
 
-      fs.remove(dirName, err => {
-        if (err)
-          return console.error(`Error removing directory ${dirName}:`, err);
-        console.log(`Successfully moved file ${file} to ${newPath}`);
-      });
-    });
+      try {
+        removeSync(dirName);
+      } catch (err) {
+        return console.error(`Error removing directory ${dirName}:`, err);
+      }
+
+      console.log(`Successfully moved file ${file} to ${newPath}`);
+    } catch (err) {
+      return console.error(`Error moving file ${file}:`, err);
+    }
   }
-} catch(err) {
-  return console.error(err);
+} catch (err) {
+  return console.error("Error extracting page folders to their own file:", err);
 }

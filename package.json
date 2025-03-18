@@ -6,21 +6,21 @@
   "scripts": {
     "dev": "nodemon --exec \"npm run build -s\" --ext \"md,sass,js,liquid\"",
     "build": "npm i && npm-run-all build:create-buildsite build:css build:html build:fix build:extract-pages",
-    "build:create-buildsite": "mkdirp _site/src/css",
-    "build:css": "node-sass ./src/includes/sass/style.sass > ./_site/src/css/style.css",
+    "build:create-buildsite": "mkdir -p _site/src/css",
+    "build:css": "sass src/includes/sass/style.sass > _site/src/css/style.css",
     "build:html": "eleventy",
     "build:extract-pages": "node scripts/extract-pages.js",
-    "build:reset-assets": "mkdirp _site/src/assets && move-cli _site/src/assets _site/src/assets_DEL && st-rm-rf _site/src/assets_DEL",
-    "build:remove-trash": "st-rm-rf _site/README",
-    "build:fix": "npm-run-all build:reset-assets build:remove-trash && st-cp src/assets _site/src/assets"
+    "build:reset-assets": "mkdir -p _site/src/assets && rm -rf _site/src/assets_DEL && mkdir -p _site/src/assets_DEL && mv -Tf _site/src/assets _site/src/assets_DEL && rm -rf _site/src/assets_DEL",
+    "build:remove-trash": "rm -rf _site/README",
+    "build:fix": "npm-run-all build:reset-assets build:remove-trash && cp -r src/assets _site/src/assets"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Paragon-Studios/Paragon-Studios.github.io.git"
+    "url": "git+https://github.com/fishy-studioz/fishystudioz.net.git"
   },
   "keywords": [
-    "site",
     "web",
+    "site",
     "website",
     "sass",
     "liquid",
@@ -35,20 +35,19 @@
   },
   "homepage": "https://fishystudioz.net/",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1",
-    "eleventy": "^1.0.6",
+    "@11ty/eleventy": "^3.0.0",
+    "eleventy": "^1.0.7",
     "mkdirp": "^3.0.1",
     "move-cli": "^2.0.0",
-    "node": "^18.20.2",
-    "node-sass": "^8.0.0",
-    "nodemon": "^3.1.0",
+    "nodemon": "^3.1.9",
     "npm-run-all": "^4.1.5",
     "st-cp": "^2.0.0-beta.2",
     "st-rm-rf": "^2.0.0-beta.1"
   },
   "dependencies": {
-    "dotenv": "^16.4.5",
+    "dotenv": "^16.4.7",
     "fs-extra": "^11.2.0",
-    "glob": "^10.3.12"
+    "glob": "^11.0.0",
+    "sass": "^1.83.0"
   }
 }
