@@ -1,0 +1,159 @@
+newmtl Triggerguard1Mtl
+Ka 0.373615 0.368591 0.383775
+Kd 0.373615 0.368591 0.383775
+Ks 0.0322335 0.0318 0.03311
+
+d 1
+
+Ns 255
+
+map_Ka Triggerguard1_diff.png
+map_Kd Triggerguard1_diff.png
+
+map_Bump Triggerguard1_nmap.png
+
+map_Ns Triggerguard1_spec.png
+newmtl Barrelmain1Mtl
+Material Color
+Ka 0.373615 0.368591 0.383775
+Kd 0.373615 0.368591 0.383775
+Ks 0.0322335 0.0318 0.03311 
+
+d 1
+
+Ns 255
+
+map_Ka Barrelmain1_diff.png
+map_Kd Barrelmain1_diff.png
+map_d Barrelmain1_diff.png
+
+map_Bump Barrelmain1_nmap.png
+
+map_Ns Barrelmain1_spec.png
+
+newmtl Hammer1Mtl
+Material Color
+Ka 0.373615 0.368591 0.383775
+Kd 0.373615 0.368591 0.383775
+Ks 0.0322335 0.0318 0.03311 
+
+d 1
+
+Ns 255
+
+map_Ka Hammer1_diff.png
+map_Kd Hammer1_diff.png
+map_d Hammer1_diff.png
+
+map_Bump Hammer1_nmap.png
+
+map_Ns Hammer1_spec.png
+
+newmtl Gripbottom1Mtl
+Material Color
+Ka 0.373615 0.368591 0.383775
+Kd 0.373615 0.368591 0.383775
+Ks 0.0322335 0.0318 0.03311 
+
+d 1
+
+Ns 255
+
+map_Ka Gripbottom1_diff.png
+map_Kd Gripbottom1_diff.png
+map_d Gripbottom1_diff.png
+
+map_Bump Gripbottom1_nmap.png
+
+map_Ns Gripbottom1_spec.png
+
+newmtl Handle1Mtl
+Material Color
+Ka 0.373615 0.368591 0.383775
+Kd 0.373615 0.368591 0.383775
+Ks 0.0322335 0.0318 0.03311 
+
+d 1
+
+Ns 255
+
+map_Ka Handle1_diff.png
+map_Kd Handle1_diff.png
+map_d Handle1_diff.png
+
+map_Bump Handle1_nmap.png
+
+map_Ns Handle1_spec.png
+
+newmtl Framemain1Mtl
+Material Color
+Ka 0.373615 0.368591 0.383775
+Kd 0.373615 0.368591 0.383775
+Ks 0.0322335 0.0318 0.03311 
+
+d 1
+
+Ns 255
+
+map_Ka Framemain1_diff.png
+map_Kd Framemain1_diff.png
+map_d Framemain1_diff.png
+
+map_Bump Framemain1_nmap.png
+
+map_Ns Framemain1_spec.png
+
+newmtl Muzzle1Mtl
+Material Color
+Ka 0.373615 0.368591 0.383775
+Kd 0.373615 0.368591 0.383775
+Ks 0.0322335 0.0318 0.03311 
+
+d 1
+
+Ns 255
+
+map_Ka Muzzle1_diff.png
+map_Kd Muzzle1_diff.png
+map_d Muzzle1_diff.png
+
+map_Bump Muzzle1_nmap.png
+
+map_Ns Muzzle1_spec.png
+
+newmtl Trigger1Mtl
+Material Color
+Ka 0.373615 0.368591 0.383775
+Kd 0.373615 0.368591 0.383775
+Ks 0.0322335 0.0318 0.03311 
+
+d 1
+
+Ns 255
+
+map_Ka Trigger1_diff.png
+map_Kd Trigger1_diff.png
+map_d Trigger1_diff.png
+
+map_Bump Trigger1_nmap.png
+
+map_Ns Trigger1_spec.png
+
+newmtl Cylindermain1Mtl
+Material Color
+Ka 0.373615 0.368591 0.383775
+Kd 0.373615 0.368591 0.383775
+Ks 0.0322335 0.0318 0.03311 
+
+d 1
+
+Ns 255
+
+map_Ka Cylindermain1_diff.png
+map_Kd Cylindermain1_diff.png
+map_d Cylindermain1_diff.png
+
+map_Bump Cylindermain1_nmap.png
+
+map_Ns Cylindermain1_spec.png
+

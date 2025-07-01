@@ -1,0 +1,142 @@
+@use "sass:math"
+
+$font-family: "Open Sans", sans-serif
+$background-color: #222
+
+*
+  font-family: $font-family
+
+h1
+  font-size: 32pt
+
+h2
+  font-size: 26pt
+  font-weight: 600
+
+h3
+  font-size: 16pt
+  font-weight: 500
+
+main
+  margin-left: 25px
+  margin-right: 25px
+
+html,
+body
+  height: 100%
+
+body
+  background-color: $background-color
+  color: #fff
+  margin: 0
+  display: flex
+  flex-direction: column
+
+$navbar-height: 55px
+main
+  padding-top: $navbar-height
+  flex: 1
+
+$ease-time: 0.2s
+$link-color: #94bce7
+$link-color-hovered: #719bc7
+a
+  color: $link-color
+  text-decoration: none
+  &:hover
+    color: $link-color-hovered
+    transition: color $ease-time ease-in-out
+  &:not(:hover)
+    color: $link-color
+    transition: color $ease-time ease-in-out
+
+h3,
+h2,
+p
+  a
+    margin: 0
+
+$navbtn-color: #333
+$navbtn-color-hovered: #252729
+$navbtn-height: math.ceil(calc($navbar-height / 2)) - 5px
+@mixin navbtn
+  display: flex
+  font-weight: bold
+  max-height: $navbtn-height
+  height: $navbtn-height
+  color: white
+  align-items: center
+  justify-content: center
+  text-align: center
+  text-justify: center
+  padding: 16px
+  text-decoration: none
+  &:hover
+    background-color: $navbtn-color-hovered
+    transition: background-color $ease-time ease-in-out
+  &:not(:hover)
+    background-color: $navbtn-color
+    transition: background-color $ease-time ease-in-out
+
+$footer-height: 65px
+.discord-widget
+  position: fixed
+  padding-top: $navbar-height + $footer-height
+  position: 50%
+  right: 15px
+  z-index: 1030
+
+a.navbtn
+  @include navbtn
+
+a.home
+  @include navbtn
+  max-width: calc($navbar-height / 2)
+  img
+    object-fit: contain
+    max-height: $navbar-height
+    height: calc($navbar-height / 1.15)
+
+nav
+  position: fixed
+  top: 0
+  width: 100%
+  z-index: 1030
+  background-color: $navbtn-color
+  height: $navbar-height
+  ul
+    display: inline-block
+    list-style-type: none
+    margin: 0
+    margin-left: 15px
+    margin-right: 15px
+    padding: 0
+    li
+      float: left
+      text-align: center
+      max-height: $navbar-height
+      &:first-child
+        margin-right: 25px
+      .boxed
+        max-width: $navbar-height
+        width: 16px
+
+span, b
+  margin-left: 0
+  margin-right: 0
+
+li.boxed
+  font-size: 22px
+  span
+    font-size: 14pt
+    margin-left: -20px
+
+footer
+  background-color: #333
+  color: white
+  height: $footer-height
+  text-align: center
+
+footer p
+  margin-left: 15px
+  margin-right: 15px

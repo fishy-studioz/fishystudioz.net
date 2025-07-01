@@ -1,0 +1,814 @@
+# Blender 4.4.3 MTL File: 'None'
+# www.blender.org
+
+newmtl Cube0021Mtl
+Ks 0.005454 0.005454 0.005454
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Linearpipe1_diff.png
+map_Pr Part70_spec.png
+map_Bump Linearpipe1_nmap.png
+
+newmtl Cube0271Mtl
+Ks 0.135913 0.135913 0.135913
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Nurbspath0241_diff.png
+map_Pr Nurbspath0241_spec.png
+map_Bump Nurbspath0241_nmap.png
+
+newmtl Cube0281Mtl
+Ks 0.032381 0.032381 0.032381
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Cube0281_diff.png
+map_Pr Cube0281_spec.png
+map_Bump Cube0281_nmap.png
+
+newmtl Cube0291Mtl
+Ks 0.020606 0.020606 0.020606
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Cube0291_diff.png
+map_Pr Cube0291_spec.png
+map_Bump Cube0291_nmap.png
+
+newmtl Cube0301Mtl
+Ks 0.016191 0.016191 0.016191
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Cube0301_diff.png
+map_Pr Cube0301_spec.png
+map_Bump Cube0301_nmap.png
+
+newmtl Cube0321Mtl
+Ks 0.117025 0.117025 0.117025
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Cube0351_diff.png
+map_Pr Cube0351_spec.png
+map_Bump Cube0351_nmap.png
+
+newmtl Cube0331Mtl
+Ks 0.039741 0.039741 0.039741
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Cube0331_diff.png
+map_Pr Cube0331_spec.png
+map_Bump Cube0331_nmap.png
+
+newmtl Cube0351Mtl
+Ks 0.073594 0.073594 0.073594
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Cube0351_diff.png
+map_Pr Cube0351_spec.png
+map_Bump Cube0351_nmap.png
+
+newmtl Cube0371Mtl
+Ks 0.025985 0.025985 0.025985
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Cube0371_diff.png
+map_Pr Cube0371_spec.png
+map_Bump Cube0371_nmap.png
+
+newmtl Cube0381Mtl
+Ks 0.013828 0.013828 0.013828
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.250980
+illum 9
+Pr 1.000000
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Cube0381_diff.png
+
+newmtl Cube1Mtl
+Ks 0.155920 0.155920 0.155920
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Nurbspath0241_diff.png
+map_Pr Nurbspath0241_spec.png
+map_Bump Nurbspath0241_nmap.png
+
+newmtl Cylinder0041Mtl
+Ks 0.014719 0.014719 0.014719
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Cylinder0041_diff.png
+map_Pr Cylinder0041_spec.png
+map_Bump Cylinder0041_nmap.png
+
+newmtl Linearpipe1Mtl
+Ks 0.011895 0.011895 0.011895
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Linearpipe1_diff.png
+map_Pr Linearpipe1_spec.png
+map_Bump Linearpipe1_nmap.png
+
+newmtl Meshessupport1Mtl
+Ks 0.040981 0.040981 0.040981
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pr 0.621847
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Meshessupport1_diff.png
+
+newmtl Meshpart1Mtl
+Ks 0.010596 0.010596 0.010596
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Linearpipe1_diff.png
+map_Pr Part70_spec.png
+map_Bump Linearpipe1_nmap.png
+
+newmtl Nurbspath0031Mtl
+Ks 0.014485 0.014485 0.014485
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Nurbspath0031_diff.png
+map_Pr Nurbspath0031_spec.png
+map_Bump Nurbspath0031_nmap.png
+
+newmtl Nurbspath0091Mtl
+Ks 0.183985 0.183985 0.183985
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Nurbspath0511_diff.png
+map_Pr Nurbspath0511_spec.png
+map_Bump Nurbspath0511_nmap.png
+
+newmtl Nurbspath0201Mtl
+Ks 0.282515 0.282515 0.282515
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Nurbspath0511_diff.png
+map_Pr Nurbspath0511_spec.png
+map_Bump Nurbspath0511_nmap.png
+
+newmtl Nurbspath0211Mtl
+Ks 0.189871 0.189871 0.189871
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Nurbspath0511_diff.png
+map_Pr Nurbspath0511_spec.png
+map_Bump Nurbspath0511_nmap.png
+
+newmtl Nurbspath0221Mtl
+Ks 0.122557 0.122557 0.122557
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Nurbspath0241_diff.png
+map_Pr Nurbspath0241_spec.png
+map_Bump Nurbspath0241_nmap.png
+
+newmtl Nurbspath0241Mtl
+Ks 0.102136 0.102136 0.102136
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Nurbspath0241_diff.png
+map_Pr Nurbspath0241_spec.png
+map_Bump Nurbspath0241_nmap.png
+
+newmtl Nurbspath0251Mtl
+Ks 0.264425 0.264425 0.264425
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Nurbspath0251_diff.png
+map_Pr Nurbspath0251_spec.png
+map_Bump Nurbspath0251_nmap.png
+
+newmtl Nurbspath0261Mtl
+Ks 0.008902 0.008902 0.008902
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Linearpipe1_diff.png
+map_Pr Linearpipe1_spec.png
+map_Bump Linearpipe1_nmap.png
+
+newmtl Nurbspath0271Mtl
+Ks 0.246333 0.246333 0.246333
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Nurbspath0251_diff.png
+map_Pr Nurbspath0251_spec.png
+map_Bump Nurbspath0251_nmap.png
+
+newmtl Nurbspath0361Mtl
+Ks 0.231012 0.231012 0.231012
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Nurbspath0251_diff.png
+map_Pr Nurbspath0251_spec.png
+map_Bump Nurbspath0251_nmap.png
+
+newmtl Nurbspath0401Mtl
+Ks 0.077541 0.077541 0.077541
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Nurbspath0241_diff.png
+map_Pr Nurbspath0241_spec.png
+map_Bump Nurbspath0241_nmap.png
+
+newmtl Nurbspath0441Mtl
+Ks 0.113023 0.113023 0.113023
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Nurbspath0241_diff.png
+map_Pr Nurbspath0241_spec.png
+map_Bump Nurbspath0241_nmap.png
+
+newmtl Nurbspath0481Mtl
+Ks 0.091495 0.091495 0.091495
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Nurbspath0241_diff.png
+map_Pr Nurbspath0241_spec.png
+map_Bump Nurbspath0241_nmap.png
+
+newmtl Nurbspath0491Mtl
+Ks 0.085063 0.085063 0.085063
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Nurbspath0551_diff.png
+map_Pr Nurbspath0551_spec.png
+map_d Nurbspath0551_diff.png
+map_Bump Nurbspath0551_nmap.png
+
+newmtl Nurbspath0501Mtl
+Ks 0.168405 0.168405 0.168405
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Nurbspath0511_diff.png
+map_Pr Nurbspath0511_spec.png
+map_d Nurbspath0511_diff.png
+map_Bump Nurbspath0511_nmap.png
+
+newmtl Nurbspath0511Mtl
+Ks 0.266877 0.266877 0.266877
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Nurbspath0511_diff.png
+map_Pr Nurbspath0511_spec.png
+map_Bump Nurbspath0511_nmap.png
+
+newmtl Nurbspath0531Mtl
+Ks 0.031721 0.031721 0.031721
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Nurbspath0531_diff.png
+map_Pr Nurbspath0531_spec.png
+map_Bump Nurbspath0531_nmap.png
+
+newmtl Nurbspath0551Mtl
+Ks 0.082297 0.082297 0.082297
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Nurbspath0551_diff.png
+map_Pr Nurbspath0551_spec.png
+map_Bump Nurbspath0551_nmap.png
+
+newmtl Nurbspath0561Mtl
+Ks 0.218590 0.218590 0.218590
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Nurbspath0251_diff.png
+map_Pr Nurbspath0251_spec.png
+map_Bump Nurbspath0251_nmap.png
+
+newmtl Nurbspath0581Mtl
+Ks 0.030829 0.030829 0.030829
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Cube0371_diff.png
+map_Pr Cube0371_spec.png
+map_Bump Cube0371_nmap.png
+
+newmtl Nurbspath0591Mtl
+Ks 0.116278 0.116278 0.116278
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Nurbspath0591_diff.png
+map_Pr Nurbspath0591_spec.png
+map_Bump Nurbspath0591_nmap.png
+
+newmtl Nurbspath0611Mtl
+Ks 0.031696 0.031696 0.031696
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Nurbspath0611_diff.png
+map_Pr Nurbspath0611_spec.png
+map_Bump Nurbspath0611_nmap.png
+
+newmtl Nurbspath0621Mtl
+Ks 0.091256 0.091256 0.091256
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Nurbspath0611_diff.png
+map_Pr Nurbspath0611_spec.png
+map_Bump Nurbspath0611_nmap.png
+
+newmtl Part125Mtl
+Ks 0.005501 0.005501 0.005501
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.501961
+illum 9
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Cube0301_diff.png
+map_Pr Cube0301_spec.png
+map_Bump Cube0301_nmap.png
+
+newmtl Part126Mtl
+Ks 0.006516 0.006516 0.006516
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pr 0.495025
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Part126_diff.png
+
+newmtl Part187Mtl
+Ks 0.050817 0.050817 0.050817
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Part187_diff.png
+map_Pr Part187_spec.png
+map_Bump Part187_nmap.png
+
+newmtl Part197Mtl
+Ks 0.120913 0.120913 0.120913
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Nurbspath0591_diff.png
+map_Pr Nurbspath0591_spec.png
+map_Bump Nurbspath0591_nmap.png
+
+newmtl Part246Mtl
+Ks 0.043137 0.043137 0.043137
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pr 0.509082
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Part246_diff.png
+
+newmtl Part70Mtl
+Ks 0.005501 0.005501 0.005501
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Linearpipe1_diff.png
+map_Pr Part70_spec.png
+map_Bump Linearpipe1_nmap.png
+
+newmtl Plane0011Mtl
+Ks 0.129220 0.129220 0.129220
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Nurbspath0241_diff.png
+map_Pr Nurbspath0241_spec.png
+map_Bump Nurbspath0241_nmap.png
+
+newmtl Plane0051Mtl
+Ks 0.043300 0.043300 0.043300
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Plane0051_diff.png
+map_Pr Plane0051_spec.png
+map_Bump Plane0051_nmap.png
+
+newmtl Plane0061Mtl
+Ks 0.008936 0.008936 0.008936
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Plane0061_diff.png
+map_Pr Plane0061_spec.png
+map_Bump Plane0061_nmap.png
+
+newmtl Plane0091Mtl
+Ks 0.130726 0.130726 0.130726
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Nurbspath0241_diff.png
+map_Pr Nurbspath0241_spec.png
+map_Bump Nurbspath0241_nmap.png
+
+newmtl Plane0131Mtl
+Ks 0.033853 0.033853 0.033853
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Nurbspath0031_diff.png
+map_Pr Nurbspath0031_spec.png
+map_Bump Nurbspath0031_nmap.png
+
+newmtl Plane1Mtl
+Ks 0.066381 0.066381 0.066381
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Plane0051_diff.png
+map_Pr Plane0051_spec.png
+map_Bump Plane0051_nmap.png
+
+newmtl Union1Mtl
+Ks 0.041111 0.041111 0.041111
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Union1_diff.png
+map_Pr Union1_spec.png
+map_Bump Union1_nmap.png

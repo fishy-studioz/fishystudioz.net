@@ -1,0 +1,89 @@
+[
+  {
+    "name": "CharSiewGuy",
+    "description": "founder & programmer",
+    "image": "src/dev/pholder.png",
+    "socials": {
+      "x": "https://x.com/CharSiewGuy"
+    },
+    "uid":"611145159203094529"
+  },
+  {
+    "name": "Runic",
+    "description": "lead programmer",
+    "image": "src/dev/pholder.png",
+    "socials": {
+      "github": "https://github.com/R-unic",
+      "youtube":"https://www.youtube.com/@_runic"
+    },
+    "uid":"215188040535113729"
+  },
+  {
+    "name": "xdzero",
+    "description": "animator",
+    "image": "src/dev/pholder.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/channel/UCiIP0epvbOHArVE7DnWKjNw"
+    },
+    "uid":"704623570675826719"
+  },
+  {
+    "name": "How'sLifeJosh",
+    "description": "animator",
+    "image": "src/dev/pholder.png",
+    "socials": {
+      "x": "https://x.com/JoshButNitwit"
+    },
+    "uid":"438731838152769558"
+  },
+  {
+    "name": "RedVFX",
+    "description": "art director",
+    "image": "src/dev/pholder.png",
+    "socials": {
+      "x": "https://x.com/RedVFX2"
+    },
+    "uid":"197920041155559424"
+  },
+  {
+    "name": "Lee",
+    "description": "3D artist",
+    "image": "src/dev/pholder.png",
+    "socials": {
+      "artstation": "https://leesu220.artstation.com"
+    },
+    "uid":"438612243739967489"
+  },
+  {
+    "name": "Typical",
+    "description": "VFX",
+    "image": "src/dev/pholder.png",
+    "socials": {
+      "x": "https://x.com/TypicalXYZ"
+    },
+    "uid":"988268527175741540"
+  },
+  {
+    "name": "MyTrumpCard",
+    "description": "composer",
+    "image": "src/dev/pholder.png",
+    "socials": {
+      "spotify": "https://open.spotify.com/artist/0HrtPfvpLfhGNE3suMtNLk"
+    },
+    "uid":"360907917177913344"
+  },
+  {
+    "name": "39dan",
+    "description": "advisor",
+    "image": "src/dev/pholder.png",
+    "socials": {
+      "x": "https://x.com/mrdanpandan"
+    },
+    "uid":"870959618984136747"
+  },{
+    "name": "Mrs. Julia",
+    "description": "composer",
+    "image": "src/dev/pholder.png",
+    "uid":"1208099633616658432"
+  }
+]

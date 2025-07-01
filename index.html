@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fishy Studioz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="overheat/fontmanagement.css">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.18.0/matter.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
+    <!-- All loaders from same source -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+</head>
+<body>
+    <div class="drop-in force-fullscreen" id="drop-in">
+        <img id="logo" src="src/fishyHeader.png" />
+        <h1 class="drop-in-title">Making games for the <i><span>art.</span></i></h1>
+    </div>
+    <div class="games fullscreen">
+        <div class="gamesContent">
+            <h2 class="text_offscreen" data-text="OUR GAMES">OUR GAMES</h2>
+            <p>For now we have 2 games; our older Untitled FPS Game and our Magnum Opus, OVERHEAT</p>
+        </div>
+        <div id="overheat" class="game1" onclick="window.location.href='/overheat/'">
+            <img src="overheat/src/noBslogo.png" />
+            <p>Click to Visit the Website</p>
+        </div>
+        <div id="ufg" class="game2"><img src="src/ufg.png" onclick="window.location.href='https://www.roblox.com/games/9541558008/NEW-CLASS-Untitled-FPS-Game-DEMO'"/><p>Click to Visit the Website</p></div>
+    </div>
+
+   <div class="about fullscreen">
+        <div class="aboutusContent">
+            <h2 class="text_offscreen" data-text="ABOUT US">ABOUT US</h2>
+            <p>We are a passionate team of developers creating innovative games and digital experiences.</p>
+            <p>Our mission is to push the boundaries of interactive entertainment while building a community around creativity and collaboration.</p>
+            <p>Each member brings unique skills and perspectives that contribute to our collective vision of making games for the art.</p>
+        </div>
+        <div class="devCarousel">
+            <div class="loading">Loading team members...</div>
+        </div>
+        <div class="funnyCircle"></div>
+    </div>
+
+    <div class="contact fullscreen">
+        <div class="contactContent">
+            <h2 class="text_offscreen" data-text="SO, HELLO!">SO, HELLO!</h2>
+            <p>Let's connect or drop a mail at <b>fishystudioz@protonmail.com</b></p>
+            <div id="toggle-form-type" class="toggle-form-type">
+                I want a normal form
+            </div>
+        </div>
+        <div class="form">
+            <div class="textbubbles" id="chat-bubbles">
+                <div class="bubble visible" data-step="name">
+                    Hey, my name is <input class="bubble-input inline" type="text" placeholder="your name" id="name-input" autocomplete="off">
+                </div>
+                <!-- The following bubbles will be shown by JS -->
+                <div class="bubble" data-step="email" style="display:none;">
+                    My email is <input class="bubble-input inline" type="email" placeholder="your@email.com" id="email-input" autocomplete="off">
+                </div>
+                <div class="bubble" data-step="subject" style="display:none;">
+                    I want to <input class="bubble-input inline" type="text" placeholder="your wish" id="subject-input" autocomplete="off">
+                </div>
+                <div class="bubble textarea-bubble" data-step="message" style="display:none;" id="bigTextBox">
+                    <textarea class="bubble-input textarea" placeholder="Tell us more..." rows="1" id="message-input"></textarea>
+                </div>
+                <button id="send-btn" style="display:none;" class="bubble-send-btn">Send</button>
+            </div>
+            <img src="src/noob.png" alt="Noob Image" />
+        </div>
+
+        <form id="normal-form" style="display:none; margin-top:24px; width:100%; max-width:600px;">
+            <div class="normal-form-row">
+                <div class="normal-form-group">
+                    <label for="normal-name">NAME</label>
+                    <input type="text" id="normal-name" name="name" autocomplete="off">
+                </div>
+                <div class="normal-form-group">
+                    <label for="normal-email">EMAIL</label>
+                    <input type="email" id="normal-email" name="email" autocomplete="off">
+                </div>
+            </div>
+            <div class="normal-form-group">
+                <label for="normal-subject">SUBJECT</label>
+                <input type="text" id="normal-subject" name="subject" autocomplete="off">
+            </div>
+            <div class="normal-form-group">
+                <label for="normal-message">MESSAGE</label>
+                <textarea id="normal-message" name="message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="normal-send-btn">SEND</button>
+        </form>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="funnyFishGuy.js"></script>
+</body>
+</html>

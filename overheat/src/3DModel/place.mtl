@@ -1,0 +1,920 @@
+newmtl Cylinder0041Mtl
+Material Color
+Ka 0.373615 0.368591 0.383775
+Kd 0.373615 0.368591 0.383775
+Ks 0.0146516 0.0144545 0.01505 
+
+d 1
+
+Ns 0
+
+map_Ka Cylinder0041_diff.png
+map_Kd Cylinder0041_diff.png
+map_d Cylinder0041_diff.png
+
+map_Bump Cylinder0041_nmap.png
+
+map_Ns Cylinder0041_spec.png
+
+newmtl Nurbspath0271Mtl
+Material Color
+Ka 0.907547 0.891262 0.932277
+Kd 0.907547 0.891262 0.932277
+Ks 0.245572 0.241165 0.252263 
+
+d 1
+
+Ns 254
+
+map_Ka Nurbspath0251_diff.png
+map_Kd Nurbspath0251_diff.png
+map_d Nurbspath0251_diff.png
+
+map_Bump Nurbspath0251_nmap.png
+
+map_Ns Nurbspath0251_spec.png
+
+newmtl Nurbspath0551Mtl
+Material Color
+Ka 0.280124 0.25084 0.201096
+Kd 0.280124 0.25084 0.201096
+Ks 0.0944733 0.0845971 0.0678205 
+
+d 1
+
+Ns 195
+
+map_Ka Nurbspath0551_diff.png
+map_Kd Nurbspath0551_diff.png
+map_d Nurbspath0551_diff.png
+
+map_Bump Nurbspath0551_nmap.png
+
+map_Ns Nurbspath0551_spec.png
+
+newmtl Part1Mtl
+Material Color
+Ka 0.420508 0.43134 0.573159
+Kd 0.420508 0.43134 0.573159
+Ks 0.0115434 0.0118407 0.0157338 
+
+d 1
+
+Ns 131
+
+map_Ka Part1_diff.png
+map_Kd Part1_diff.png
+map_d Part1_diff.png
+
+map_Bump Part1_nmap.png
+
+map_Ns Part1_spec.png
+
+newmtl Linearpipe1Mtl
+Material Color
+Ka 0.190463 0.111299 0.0938759
+Kd 0.190463 0.111299 0.0938759
+Ks 0.017179 0.0100388 0.00846724 
+
+d 1
+
+Ns 241
+
+map_Ka Linearpipe1_diff.png
+map_Kd Linearpipe1_diff.png
+map_d Linearpipe1_diff.png
+
+map_Bump Linearpipe1_nmap.png
+
+map_Ns Linearpipe1_spec.png
+
+newmtl Cube0281Mtl
+Material Color
+Ka 0.373615 0.368591 0.383775
+Kd 0.373615 0.368591 0.383775
+Ks 0.0322335 0.0318 0.03311 
+
+d 1
+
+Ns 253
+
+map_Ka Cube0281_diff.png
+map_Kd Cube0281_diff.png
+map_d Cube0281_diff.png
+
+map_Bump Cube0281_nmap.png
+
+map_Ns Cube0281_spec.png
+
+newmtl Union1Mtl
+Material Color
+Ka 0.108711 0.38891 1
+Kd 0.108711 0.38891 1
+Ks 0.00895268 0.0320279 0.0823529 
+
+d 1
+
+Ns 0
+
+map_Ka Union1_diff.png
+map_Kd Union1_diff.png
+map_d Union1_diff.png
+
+map_Bump Union1_nmap.png
+
+map_Ns Union1_spec.png
+
+newmtl Cube0321Mtl
+Material Color
+Ka 0.592438 0.585973 0.612066
+Kd 0.592438 0.585973 0.612066
+Ks 0.116164 0.114897 0.120013 
+
+d 1
+
+Ns 0
+
+map_Ka Cube0351_diff.png
+map_Kd Cube0351_diff.png
+map_d Cube0351_diff.png
+
+map_Bump Cube0351_nmap.png
+
+map_Ns Cube0351_spec.png
+
+newmtl Nurbspath0031Mtl
+Material Color
+Ka 0.197516 0.151058 0.133209
+Kd 0.197516 0.151058 0.133209
+Ks 0.0178152 0.0136248 0.0120149 
+
+d 1
+
+Ns 0
+
+map_Ka Nurbspath0031_diff.png
+map_Kd Nurbspath0031_diff.png
+map_d Nurbspath0031_diff.png
+
+map_Bump Nurbspath0031_nmap.png
+
+map_Ns Nurbspath0031_spec.png
+
+newmtl Nurbspath0241Mtl
+Material Color
+Ka 0.215764 0.212044 0.22331
+Kd 0.215764 0.212044 0.22331
+Ks 0.101536 0.0997856 0.105087 
+
+d 1
+
+Ns 5
+
+map_Ka Nurbspath0241_diff.png
+map_Kd Nurbspath0241_diff.png
+map_d Nurbspath0241_diff.png
+
+map_Bump Nurbspath0241_nmap.png
+
+map_Ns Nurbspath0241_spec.png
+
+newmtl Nurbspath0251Mtl
+Material Color
+Ka 0.9743 0.95737 1
+Kd 0.9743 0.95737 1
+Ks 0.263634 0.259053 0.270588 
+
+d 1
+
+Ns 254
+
+map_Ka Nurbspath0251_diff.png
+map_Kd Nurbspath0251_diff.png
+map_d Nurbspath0251_diff.png
+
+map_Bump Nurbspath0251_nmap.png
+
+map_Ns Nurbspath0251_spec.png
+
+newmtl Nurbspath0261Mtl
+Material Color
+Ka 0.0986892 0.0962661 0.101145
+Kd 0.0986892 0.0962661 0.101145
+Ks 0.00890138 0.00868283 0.0091229 
+
+d 1
+
+Ns 241
+
+map_Ka Linearpipe1_diff.png
+map_Kd Linearpipe1_diff.png
+map_d Linearpipe1_diff.png
+
+map_Bump Linearpipe1_nmap.png
+
+map_Ns Linearpipe1_spec.png
+
+newmtl Cube0301Mtl
+Material Color
+Ka 0.373615 0.368591 0.383775
+Kd 0.373615 0.368591 0.383775
+Ks 0.0161167 0.0159 0.016555 
+
+d 1
+
+Ns 255
+
+map_Ka Cube0301_diff.png
+map_Kd Cube0301_diff.png
+map_d Cube0301_diff.png
+
+map_Bump Cube0301_nmap.png
+
+map_Ns Cube0301_spec.png
+
+newmtl Cube0331Mtl
+Material Color
+Ka 0.373615 0.368591 0.383775
+Kd 0.373615 0.368591 0.383775
+Ks 0.0395592 0.0390273 0.040635 
+
+d 1
+
+Ns 13
+
+map_Ka Cube0331_diff.png
+map_Kd Cube0331_diff.png
+map_d Cube0331_diff.png
+
+map_Bump Cube0331_nmap.png
+
+map_Ns Cube0331_spec.png
+
+newmtl Cube0381Mtl
+Material Color
+Ka 0.215764 0.157281 0.0869013
+Kd 0.215764 0.157281 0.0869013
+Ks 0.0194611 0.0141861 0.00783815 
+
+d 0.25098
+
+Ns 0
+
+map_Ka Cube0381_diff.png
+map_Kd Cube0381_diff.png
+map_d Cube0381_diff.png
+
+newmtl Meshessupport1Mtl
+Material Color
+Ka 0.420508 0.43134 0.573159
+Kd 0.420508 0.43134 0.573159
+Ks 0.0362791 0.0372137 0.049449 
+
+d 1
+
+Ns 143
+
+map_Ka Meshessupport1_diff.png
+map_Kd Meshessupport1_diff.png
+map_d Meshessupport1_diff.png
+
+newmtl Cube0271Mtl
+Material Color
+Ka 0.288816 0.288816 0.288816
+Kd 0.288816 0.288816 0.288816
+Ks 0.135913 0.135913 0.135913 
+
+d 1
+
+Ns 5
+
+map_Ka Nurbspath0241_diff.png
+map_Kd Nurbspath0241_diff.png
+map_d Nurbspath0241_diff.png
+
+map_Bump Nurbspath0241_nmap.png
+
+map_Ns Nurbspath0241_spec.png
+
+newmtl Plane0061Mtl
+Material Color
+Ka 0.20471 0.20471 0.212044
+Kd 0.20471 0.20471 0.212044
+Ks 0.00883063 0.00883063 0.00914701 
+
+d 1
+
+Ns 246
+
+map_Ka Plane0061_diff.png
+map_Kd Plane0061_diff.png
+map_d Plane0061_diff.png
+
+map_Bump Plane0061_nmap.png
+
+map_Ns Plane0061_spec.png
+
+newmtl Cube0371Mtl
+Material Color
+Ka 0.186989 0.186989 0.193972
+Kd 0.186989 0.186989 0.193972
+Ks 0.0256651 0.0256651 0.0266236 
+
+d 1
+
+Ns 78
+
+map_Ka Cube0371_diff.png
+map_Kd Cube0371_diff.png
+map_d Cube0371_diff.png
+
+map_Bump Cube0371_nmap.png
+
+map_Ns Cube0371_spec.png
+
+newmtl Nurbspath0401Mtl
+Material Color
+Ka 0.160444 0.173439 0.160444
+Kd 0.160444 0.173439 0.160444
+Ks 0.0755028 0.0816184 0.0755028 
+
+d 1
+
+Ns 5
+
+map_Ka Nurbspath0241_diff.png
+map_Kd Nurbspath0241_diff.png
+map_d Nurbspath0241_diff.png
+
+map_Bump Nurbspath0241_nmap.png
+
+map_Ns Nurbspath0241_spec.png
+
+newmtl Cube0351Mtl
+Material Color
+Ka 0.373615 0.368591 0.383775
+Kd 0.373615 0.368591 0.383775
+Ks 0.0732579 0.0722727 0.0752499 
+
+d 1
+
+Ns 0
+
+map_Ka Cube0351_diff.png
+map_Kd Cube0351_diff.png
+map_d Cube0351_diff.png
+
+map_Bump Cube0351_nmap.png
+
+map_Ns Cube0351_spec.png
+
+newmtl Plane0051Mtl
+Material Color
+Ka 0.288816 0.183549 0.0619075
+Kd 0.288816 0.183549 0.0619075
+Ks 0.0702219 0.0446276 0.015052 
+
+d 1
+
+Ns 247
+
+map_Ka Plane0051_diff.png
+map_Kd Plane0051_diff.png
+map_d Plane0051_diff.png
+
+map_Bump Plane0051_nmap.png
+
+map_Ns Plane0051_spec.png
+
+newmtl Cube0021Mtl
+Material Color
+Ka 0.0759261 0.0986892 0.20471
+Kd 0.0759261 0.0986892 0.20471
+Ks 0.00327524 0.00425718 0.00883063 
+
+d 1
+
+Ns 241
+
+map_Ka Linearpipe1_diff.png
+map_Kd Linearpipe1_diff.png
+map_d Linearpipe1_diff.png
+
+map_Bump Linearpipe1_nmap.png
+
+map_Ns Part70_spec.png
+
+newmtl Nurbspath0511Mtl
+Material Color
+Ka 0.523443 0.517401 0.541798
+Kd 0.523443 0.517401 0.541798
+Ks 0.264801 0.261744 0.274086 
+
+d 1
+
+Ns 97
+
+map_Ka Nurbspath0511_diff.png
+map_Kd Nurbspath0511_diff.png
+map_d Nurbspath0511_diff.png
+
+map_Bump Nurbspath0511_nmap.png
+
+map_Ns Nurbspath0511_spec.png
+
+newmtl Plane0091Mtl
+Material Color
+Ka 0.302126 0.284452 0.2468
+Kd 0.302126 0.284452 0.2468
+Ks 0.142177 0.13386 0.116141 
+
+d 1
+
+Ns 5
+
+map_Ka Nurbspath0241_diff.png
+map_Kd Nurbspath0241_diff.png
+map_d Nurbspath0241_diff.png
+
+map_Bump Nurbspath0241_nmap.png
+
+map_Ns Nurbspath0241_spec.png
+
+newmtl Cube0291Mtl
+Material Color
+Ka 0.373615 0.368591 0.383775
+Kd 0.373615 0.368591 0.383775
+Ks 0.0205122 0.0202364 0.02107 
+
+d 1
+
+Ns 2
+
+map_Ka Cube0291_diff.png
+map_Kd Cube0291_diff.png
+map_d Cube0291_diff.png
+
+map_Bump Cube0291_nmap.png
+
+map_Ns Cube0291_spec.png
+
+newmtl Part125Mtl
+Material Color
+Ka 0.12753 0.12753 0.12753
+Kd 0.12753 0.12753 0.12753
+Ks 0.00550128 0.00550128 0.00550128 
+
+d 0.501961
+
+Ns 255
+
+map_Ka Cube0301_diff.png
+map_Kd Cube0301_diff.png
+map_d Cube0301_diff.png
+
+map_Bump Cube0301_nmap.png
+
+map_Ns Cube0301_spec.png
+
+newmtl Plane0131Mtl
+Material Color
+Ka 0.373615 0.368591 0.383775
+Kd 0.373615 0.368591 0.383775
+Ks 0.0336986 0.0332455 0.034615 
+
+d 1
+
+Ns 0
+
+map_Ka Nurbspath0031_diff.png
+map_Kd Nurbspath0031_diff.png
+map_d Nurbspath0031_diff.png
+
+map_Bump Nurbspath0031_nmap.png
+
+map_Ns Nurbspath0031_spec.png
+
+newmtl Nurbspath0591Mtl
+Material Color
+Ka 0.373615 0.368591 0.383775
+Kd 0.373615 0.368591 0.383775
+Ks 0.115747 0.114191 0.118895 
+
+d 1
+
+Ns 237
+
+map_Ka Nurbspath0591_diff.png
+map_Kd Nurbspath0591_diff.png
+map_d Nurbspath0591_diff.png
+
+map_Bump Nurbspath0591_nmap.png
+
+map_Ns Nurbspath0591_spec.png
+
+newmtl Nurbspath0581Mtl
+Material Color
+Ka 0.22331 0.21952 0.230998
+Kd 0.22331 0.21952 0.230998
+Ks 0.0306505 0.0301302 0.0317056 
+
+d 1
+
+Ns 78
+
+map_Ka Cube0371_diff.png
+map_Kd Cube0371_diff.png
+map_d Cube0371_diff.png
+
+map_Bump Cube0371_nmap.png
+
+map_Ns Cube0371_spec.png
+
+newmtl Nurbspath0611Mtl
+Material Color
+Ka 0.130352 0.12753 0.133209
+Kd 0.130352 0.12753 0.133209
+Ks 0.0316935 0.0310072 0.032388 
+
+d 1
+
+Ns 37
+
+map_Ka Nurbspath0611_diff.png
+map_Kd Nurbspath0611_diff.png
+map_d Nurbspath0611_diff.png
+
+map_Bump Nurbspath0611_nmap.png
+
+map_Ns Nurbspath0611_spec.png
+
+newmtl Nurbspath0621Mtl
+Material Color
+Ka 0.373615 0.368591 0.383775
+Kd 0.373615 0.368591 0.383775
+Ks 0.0908397 0.0896182 0.0933099 
+
+d 1
+
+Ns 37
+
+map_Ka Nurbspath0611_diff.png
+map_Kd Nurbspath0611_diff.png
+map_d Nurbspath0611_diff.png
+
+map_Bump Nurbspath0611_nmap.png
+
+map_Ns Nurbspath0611_spec.png
+
+newmtl Nurbspath0491Mtl
+Material Color
+Ka 0.25084 0.2468 0.259027
+Kd 0.25084 0.2468 0.259027
+Ks 0.0845971 0.0832347 0.0873583 
+
+d 1
+
+Ns 195
+
+map_Ka Nurbspath0551_diff.png
+map_Kd Nurbspath0551_diff.png
+map_d Nurbspath0551_diff.png
+
+map_Bump Nurbspath0551_nmap.png
+
+map_Ns Nurbspath0551_spec.png
+
+newmtl Nurbspath0561Mtl
+Material Color
+Ka 0.91575 0.827726 0.68002
+Kd 0.91575 0.827726 0.68002
+Ks 0.247791 0.223973 0.184006 
+
+d 1
+
+Ns 254
+
+map_Ka Nurbspath0251_diff.png
+map_Kd Nurbspath0251_diff.png
+map_d Nurbspath0251_diff.png
+
+map_Bump Nurbspath0251_nmap.png
+
+map_Ns Nurbspath0251_spec.png
+
+newmtl Nurbspath0531Mtl
+Material Color
+Ka 0.154152 0.136099 0.101145
+Kd 0.154152 0.136099 0.101145
+Ks 0.0374802 0.0330906 0.0245922 
+
+d 1
+
+Ns 5
+
+map_Ka Nurbspath0531_diff.png
+map_Kd Nurbspath0531_diff.png
+map_d Nurbspath0531_diff.png
+
+map_Bump Nurbspath0531_nmap.png
+
+map_Ns Nurbspath0531_spec.png
+
+newmtl Nurbspath0501Mtl
+Material Color
+Ka 0.329729 0.329729 0.339223
+Kd 0.329729 0.329729 0.339223
+Ks 0.166804 0.166804 0.171607 
+
+d 1
+
+Ns 97
+
+map_Ka Nurbspath0511_diff.png
+map_Kd Nurbspath0511_diff.png
+map_d Nurbspath0511_diff.png
+
+map_Bump Nurbspath0511_nmap.png
+
+map_Ns Nurbspath0511_spec.png
+
+newmtl Nurbspath0481Mtl
+Material Color
+Ka 0.212044 0.201096 0.170138
+Kd 0.212044 0.201096 0.170138
+Ks 0.0997856 0.0946333 0.0800651 
+
+d 1
+
+Ns 5
+
+map_Ka Nurbspath0241_diff.png
+map_Kd Nurbspath0241_diff.png
+map_d Nurbspath0241_diff.png
+
+map_Bump Nurbspath0241_nmap.png
+
+map_Ns Nurbspath0241_spec.png
+
+newmtl Part246Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0431373 0.0431373 0.0431373 
+
+d 1
+
+Ns 241
+
+map_Ka Part246_diff.png
+map_Kd Part246_diff.png
+map_d Part246_diff.png
+
+newmtl Nurbspath0441Mtl
+Material Color
+Ka 0.238828 0.234895 0.2468
+Kd 0.238828 0.234895 0.2468
+Ks 0.11239 0.110539 0.116141 
+
+d 1
+
+Ns 5
+
+map_Ka Nurbspath0241_diff.png
+map_Kd Nurbspath0241_diff.png
+map_d Nurbspath0241_diff.png
+
+map_Bump Nurbspath0241_nmap.png
+
+map_Ns Nurbspath0241_spec.png
+
+newmtl Nurbspath0361Mtl
+Material Color
+Ka 1 0.867136 0.694081
+Kd 1 0.867136 0.694081
+Ks 0.270588 0.234637 0.18781 
+
+d 1
+
+Ns 254
+
+map_Ka Nurbspath0251_diff.png
+map_Kd Nurbspath0251_diff.png
+map_d Nurbspath0251_diff.png
+
+map_Bump Nurbspath0251_nmap.png
+
+map_Ns Nurbspath0251_spec.png
+
+newmtl Nurbspath0221Mtl
+Material Color
+Ka 0.259027 0.254916 0.267358
+Kd 0.259027 0.254916 0.267358
+Ks 0.121895 0.11996 0.125816 
+
+d 1
+
+Ns 5
+
+map_Ka Nurbspath0241_diff.png
+map_Kd Nurbspath0241_diff.png
+map_d Nurbspath0241_diff.png
+
+map_Bump Nurbspath0241_nmap.png
+
+map_Ns Nurbspath0241_spec.png
+
+newmtl Nurbspath0211Mtl
+Material Color
+Ka 0.373615 0.368591 0.383775
+Kd 0.373615 0.368591 0.383775
+Ks 0.189005 0.186464 0.194145 
+
+d 1
+
+Ns 97
+
+map_Ka Nurbspath0511_diff.png
+map_Kd Nurbspath0511_diff.png
+map_d Nurbspath0511_diff.png
+
+map_Bump Nurbspath0511_nmap.png
+
+map_Ns Nurbspath0511_spec.png
+
+newmtl Nurbspath0201Mtl
+Material Color
+Ka 0.554227 0.547994 0.573159
+Kd 0.554227 0.547994 0.573159
+Ks 0.280374 0.27722 0.289951 
+
+d 1
+
+Ns 97
+
+map_Ka Nurbspath0511_diff.png
+map_Kd Nurbspath0511_diff.png
+map_d Nurbspath0511_diff.png
+
+map_Bump Nurbspath0511_nmap.png
+
+map_Ns Nurbspath0511_spec.png
+
+newmtl Part70Mtl
+Material Color
+Ka 0.12753 0.12753 0.12753
+Kd 0.12753 0.12753 0.12753
+Ks 0.00550128 0.00550128 0.00550128 
+
+d 1
+
+Ns 241
+
+map_Ka Linearpipe1_diff.png
+map_Kd Linearpipe1_diff.png
+map_d Linearpipe1_diff.png
+
+map_Bump Linearpipe1_nmap.png
+
+map_Ns Part70_spec.png
+
+newmtl Cube1Mtl
+Material Color
+Ka 0.329729 0.325037 0.339223
+Kd 0.329729 0.325037 0.339223
+Ks 0.155167 0.152959 0.159635 
+
+d 1
+
+Ns 5
+
+map_Ka Nurbspath0241_diff.png
+map_Kd Nurbspath0241_diff.png
+map_d Nurbspath0241_diff.png
+
+map_Bump Nurbspath0241_nmap.png
+
+map_Ns Nurbspath0241_spec.png
+
+newmtl Plane0011Mtl
+Material Color
+Ka 0.166872 0.230998 0.425905
+Kd 0.166872 0.230998 0.425905
+Ks 0.0785281 0.108705 0.200426 
+
+d 1
+
+Ns 5
+
+map_Ka Nurbspath0241_diff.png
+map_Kd Nurbspath0241_diff.png
+map_d Nurbspath0241_diff.png
+
+map_Bump Nurbspath0241_nmap.png
+
+map_Ns Nurbspath0241_spec.png
+
+newmtl Part126Mtl
+Material Color
+Ka 0.151058 0.151058 0.151058
+Kd 0.151058 0.151058 0.151058
+Ks 0.00651623 0.00651623 0.00651623 
+
+d 1
+
+Ns 255
+
+map_Ka Part126_diff.png
+map_Kd Part126_diff.png
+map_d Part126_diff.png
+
+newmtl Plane1Mtl
+Material Color
+Ka 0.271577 0.267358 0.280124
+Kd 0.271577 0.267358 0.280124
+Ks 0.0660306 0.0650047 0.0681087 
+
+d 1
+
+Ns 247
+
+map_Ka Plane0051_diff.png
+map_Kd Plane0051_diff.png
+map_d Plane0051_diff.png
+
+map_Bump Plane0051_nmap.png
+
+map_Ns Plane0051_spec.png
+
+newmtl Part187Mtl
+Material Color
+Ka 0.982826 0.547994 0.320382
+Kd 0.982826 0.547994 0.320382
+Ks 0.0809386 0.0451289 0.0263844 
+
+d 1
+
+Ns 173
+
+map_Ka Part187_diff.png
+map_Kd Part187_diff.png
+map_d Part187_diff.png
+
+map_Bump Part187_nmap.png
+
+map_Ns Part187_spec.png
+
+newmtl Part197Mtl
+Material Color
+Ka 0.334458 0.394083 0.442323
+Kd 0.334458 0.394083 0.442323
+Ks 0.103616 0.122089 0.137033 
+
+d 1
+
+Ns 237
+
+map_Ka Nurbspath0591_diff.png
+map_Kd Nurbspath0591_diff.png
+map_d Nurbspath0591_diff.png
+
+map_Bump Nurbspath0591_nmap.png
+
+map_Ns Nurbspath0591_spec.png
+
+newmtl Meshpart1Mtl
+Material Color
+Ka 0.197516 0.254916 0.284452
+Kd 0.197516 0.254916 0.284452
+Ks 0.00852032 0.0109964 0.0122705 
+
+d 1
+
+Ns 241
+
+map_Ka Linearpipe1_diff.png
+map_Kd Linearpipe1_diff.png
+map_d Linearpipe1_diff.png
+
+map_Bump Linearpipe1_nmap.png
+
+map_Ns Part70_spec.png
+
+newmtl Nurbspath0091Mtl
+Material Color
+Ka 0.368591 0.373615 0.348865
+Kd 0.368591 0.373615 0.348865
+Ks 0.186464 0.189005 0.176485 
+
+d 1
+
+Ns 97
+
+map_Ka Nurbspath0511_diff.png
+map_Kd Nurbspath0511_diff.png
+map_d Nurbspath0511_diff.png
+
+map_Bump Nurbspath0511_nmap.png
+
+map_Ns Nurbspath0511_spec.png
+

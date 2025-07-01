@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta property="og:image" content="https://www.fishystudioz.net/assets/meta.png" />
+    <meta name="description" content="Fishy Studioz is a development group on Roblox. We make games, services, and more. We consider anyone who wants to contribute, just join our Discord server or make pull requests." />
+    <meta name="theme-color" content="#8CE2F5" />
+    <title>{{ title }}</title>
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/favicon.ico"/>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/style.css"/>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="boxed">
+          <a class="home" href="/"><img alt="Home" src="assets/meta.png" /></a>
+        </li>
+        <li>
+          <a class="navbtn" href="contribute.html">Contribute</a>
+        </li>
+        <li>
+          <a class="navbtn" href="projects.html">Projects</a>
+        </li>
+      </ul>
+      <hr style="margin: -4px;">
+    </nav>
+    <main>
+      <h1>{{ title | split: " | " | first }}</h1>
+      <iframe class="discord-widget" src="https://discord.com/widget?id=1172086382781530162&theme=dark" width="350" height="400" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+      {{ content }}
+    </main>
+    <footer>
+      <hr>
+      <p>Copyright &copy; {{ "now" | date: "%Y" }} Fishy Studioz</p>
+    </footer>
+  </body>
+</html>

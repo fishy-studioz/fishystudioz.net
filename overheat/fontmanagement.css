@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'HKGroteskWide';
+  src: url('fonts/HKG/HKGroteskWide-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HKGroteskWide';
+  src: url('fonts/HKG/HKGroteskWide-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HKGroteskWide';
+  src: url('fonts/HKG/HKGroteskWide-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HKGroteskWide';
+  src: url('fonts/HKG/HKGroteskWide-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HKGroteskWide';
+  src: url('fonts/HKG/HKGroteskWide-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HKGroteskWide';
+  src: url('fonts/HKG/HKGroteskWide-ExtraBold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HKGroteskWide';
+  src: url('fonts/HKG/HKGroteskWide-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Widebody";
+  src: url('fonts/WB/Widebody.otf') format('opentype');
+}
+
+@font-face {
+  font-family: "Widebody";
+  src: url('fonts/WB/Widebody.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Widebody";
+  src: url('fonts/WB/Widebody.woff2');
+}
+
+@font-face {
+  font-family: "Xshow";
+  src: url(fonts/XS/Xshow.otf) format('opentype');
+}

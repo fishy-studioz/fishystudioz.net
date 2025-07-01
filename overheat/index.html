@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overheat</title>
+    <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <!-- THREE.js Core - Keep consistent source -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
+    <!-- All loaders from same source -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/MTLLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/OBJLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/DRACOLoader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/postprocessing/EffectComposer.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/postprocessing/RenderPass.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/postprocessing/ShaderPass.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-delaunay@6"></script>
+    <link rel="stylesheet" href="fontmanagement.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Basic Meta Tags -->
+    <title>FISHY STUDIOZ ⁝ OVERHEAT</title>
+    <meta name="description" content="A new roguelike movement based PvE game on Roblox developed by Fishy Studioz.">
+    <meta name="theme-color" content="#b21927">   
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="FISHY STUDIOZ ⁝ OVERHEAT">
+    <meta property="og:description" content="A new roguelike movement based PvE game on Roblox developed by Fishy Studioz.">
+    <meta property="og:image" content="https://letdowntovoid.github.io/FishyStudiozV2/overheat/src/meta.png">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://letdowntovoid.github.io/FishyStudiozV2">    
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="FISHY STUDIOZ ⁝ OVERHEAT">
+    <meta name="twitter:description" content="A new roguelike movement based PvE game on Roblox developed by Fishy Studioz.">
+    <meta name="twitter:image" content="https://letdowntovoid.github.io/FishyStudiozV2/overheat/src/meta.png">
+    <meta name="twitter:site" content="@CharSiewGuy">   
+
+    <!-- Microsoft / Skype -->
+    <meta name="msapplication-TileImage" content="https://letdowntovoid.github.io/FishyStudiozV2/overheat/src/meta.png">
+    <meta name="msapplication-TileColor" content="#b21927">
+
+</head>
+<body>
+    <div class="fullscreen" id="loader">
+        <div class="fullscreen" id="loader3D"></div>
+        <video muted playsinline id="ldvid">
+          <source src="src/GIFwork/updatedSpeedTransparent.webm">
+          Your browser does not support the video tag which is crazy in 2025.
+        </video>
+      </div>
+
+   
+    <div class="fullscreen" id="drop-in">
+        <div id="lnc"></div>
+        <img src="src/noBslogo.png"/ id="logo">
+    </div>
+    <section class="horizontal-section fullscreen">
+      <div class="fullscreen tdModelFlex cnv" id="contHoz"></div>
+      <div class="horizontal-wrapper">
+        <div class="panel">
+          <h1 class="longText">
+            The all new PvE Roblox game from Fishy Studioz.
+          </h1>
+        </div>
+      </div>
+    </section>
+
+
+    <div class="fullscreen" id="devList">
+        <h1 class="title">MEET THE DEVELOPERS</h1>
+        <div class="cards-grid" id="cardsGrid"></div>
+    </div>
+
+    <div id="showcase">
+      <div id="scrollingText">
+        <div class="fullscreen scrollText">
+          NOT JUST PvE
+          <span class="font_wire">NOT JUST PvE</span>
+        </div>
+        <div class="fullscreen scrollText">
+          MOVEMENT SHOOTER
+          <span class="font_wire">MOVEMENT SHOOTER</span>
+        </div>
+        <div class="fullscreen scrollText">
+          CO-OP
+          <span class="font_wire">CO-OP</span>
+        </div>
+        <div class="fullscreen scrollText">
+          <span class="font_wire"></span>
+        </div>
+        <div class="fullscreen scrollText" style="text-align: right;">
+          BULLET HELL
+          <span class="font_wire">BULLET HELL</span>
+        </div>
+        <div class="fullscreen scrollText">
+          ROGUELIKE
+          <span class="font_wire">ROGUELIKE</span>
+          <div class="lowGlore fullscreen"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contacts">
+      <h1 class="title">OUR CONTACTS</h1>
+      <div class="fullscreen" id="gun">
+      </div>
+      <div class="contactList">
+        <div class="chipped-shape responsive-shape chip-bottom-right target" c_href="https://discord.gg/overheat">
+          <div class="animate-text">
+            <span class="marqSpan">JOIN THE DISCORD&nbsp;</span>
+            <span class="marqSpan">JOIN THE DISCORD&nbsp;</span>
+            <span class="marqSpan">JOIN THE DISCORD&nbsp;</span>
+          </div>
+          <div class="content">
+            <img src="src/socialsImages/Discord.png"/>
+            <h1 class="linkTitle"> Join the <b>OFFICIAL DISCORD</b>  </h1>
+          </div>
+        </div>
+        <div class="chipped-shape responsive-shape chip-bottom-left opposite-shape target" c_href="https://www.roblox.com/communities/5684670/Fishy-Studioz#!/about">
+          <div class="animate-text left">
+            <span class="marqSpan">ROBLOX GROUP&nbsp;</span>
+            <span class="marqSpan">ROBLOX GROUP&nbsp;</span>
+            <span class="marqSpan">ROBLOX GROUP&nbsp;</span>
+          </div>
+          <div class="content rev">
+            <img src="src/socialsImages/Roblox.png"/>
+            <h1 class="linkTitle"> Join the <b>ROBLOX GROUP</b> </h1>
+          </div>
+        </div>
+
+        <div class="chipped-shape responsive-shape chip-bottom-right target" c_href="https://x.com/CharSiewGuy">
+          <div class="animate-text">
+            <span class="marqSpan">FOLLOW ON X&nbsp;</span>
+            <span class="marqSpan">FOLLOW ON X&nbsp;</span>
+            <span class="marqSpan">FOLLOW ON X&nbsp;</span>
+          </div>
+          <div class="content">
+            <img src="src/socialsImages/X.png"/>
+            <h1 class="linkTitle"> Follow us on <b>X</b> </h1>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <footer class="footer fullscreen" id="footer">
+      <div class="blur_overlay_footer fullscreen">
+        <div class="logos">
+          <img class="logo" src="src/blackBackground.png"/>
+          <div class="line"></div>
+          <img class="logo" src="src/fishystudiostransparent.png"/>
+        </div>
+        <div class="info">
+          <span>Read our <a target="_blank" href="/dev-updates/">Developer Updates!</a></span><br>
+          <span>Business Inquiry Mail: <a target="_blank" href="mailto:fishystudioz@protonmail.com">fishystudioz@protonmail.com</a></span>
+        </div>
+      
+      </div>
+    </footer>
+
+    
+</body>
+<script src="loader.js"></script>
+<script src="script.js"></script>
+<script src="devlist.js"></script>
+<script src="background.js"></script>
+<script src="tdModelloader.js"></script>
+<script src="john.js"></script>
+<script src="footer.js"></script>
+</html>

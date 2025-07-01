@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auth Transfer</title>
+</head>
+<body>
+    Transferring...
+</body>
+<script>
+    // Simple ROBLOX Auth URI Transfer to Localhost
+function transferToLocalhost(localhostPort = 3000) {
+    // Get current URL parameters
+    const urlParams = new URLSearchParams(window.location.search);
+    const hashParams = new URLSearchParams(window.location.hash.substring(1));
+    
+    // Combine all parameters
+    const allParams = new URLSearchParams();
+    
+    // Add URL params
+    urlParams.forEach((value, key) => {
+        allParams.append(key, value);
+    });
+    
+    // Add hash params (where tokens usually are)
+    hashParams.forEach((value, key) => {
+        allParams.append(key, value);
+    });
+    
+    // Build localhost URL with all parameters
+    const localhostUrl = `http://localhost:${localhostPort}/callback/?${allParams.toString()}`;
+    
+    // Redirect
+    window.location.href = localhostUrl;
+}
+
+// Auto-run when page loads
+window.addEventListener('load', () => {
+    transferToLocalhost(3000); // Change port as needed
+});
+
+// Manual trigger
+window.transferAuth = transferToLocalhost;
+</script>
+</html>

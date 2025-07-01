@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Blog Generator & Documentation</title>
+    <link rel="stylesheet" href="../../fontmanagement.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200..800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+        :root{
+            --backgroundBlack : #101010;
+            --theRed:#b21927;
+        }
+
+        html{
+            background-color: var(--backgroundBlack);
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Montserrat", sans-serif;
+            color: white;
+            background-color: var(--backgroundBlack);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .title {
+            font-family: "HKGroteskWide", sans-serif;
+            font-weight: 900;
+            color: var(--theRed);
+            font-size: clamp(40px, 7vw, 80px);
+            line-height: 80%;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .form-section {
+            background: rgba(178, 25, 39, 0.1);
+            border: 2px solid var(--theRed);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            color: var(--theRed);
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            font-family: "HKGroteskWide", sans-serif;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 0.75rem;
+            background: #2d3748;
+            border: 2px solid #4a5568;
+            border-radius: 8px;
+            color: white;
+            font-family: inherit;
+            font-size: 1rem;
+            transition: border-color 0.2s ease;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--theRed);
+        }
+
+        .form-group textarea {
+            min-height: 300px;
+            font-family: 'Courier New', monospace;
+            resize: vertical;
+        }
+
+        .btn {
+            background: var(--theRed);
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-family: "HKGroteskWide", sans-serif;
+            text-transform: uppercase;
+        }
+
+        .btn:hover {
+            background: rgba(178, 25, 39, 0.8);
+            transform: translateY(-2px);
+        }
+
+        .output-section {
+            background: #1a202c;
+            border: 2px solid var(--theRed);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+
+        .output-json {
+            background: #0d1117;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            padding: 1rem;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+            color: #e6edf3;
+            white-space: pre-wrap;
+            overflow-x: auto;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .copy-btn {
+            background: #238636;
+            margin-top: 1rem;
+        }
+
+        .copy-btn:hover {
+            background: #2ea043;
+        }
+
+        .documentation {
+            background: rgba(178, 25, 39, 0.05);
+            border-left: 4px solid var(--theRed);
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .doc-title {
+            color: var(--theRed);
+            font-family: "HKGroteskWide", sans-serif;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .syntax-example {
+            background: #2d3748;
+            border: 1px solid #4a5568;
+            border-radius: 8px;
+            padding: 1rem;
+            margin: 1rem 0;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+            color: #e2e8f0;
+            overflow-x: auto;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .feature-card {
+            background: rgba(178, 25, 39, 0.1);
+            border: 2px solid var(--theRed);
+            border-radius: 12px;
+            padding: 1.5rem;
+            transition: transform 0.2s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-4px);
+        }
+
+        .feature-card h3 {
+            color: var(--theRed);
+            font-family: "HKGroteskWide", sans-serif;
+            margin-bottom: 1rem;
+        }
+
+        .tabs {
+            display: flex;
+            border-bottom: 2px solid var(--theRed);
+            margin-bottom: 2rem;
+        }
+
+        .tab {
+            background: none;
+            border: none;
+            color: #ccc;
+            padding: 1rem 2rem;
+            cursor: pointer;
+            font-family: "HKGroteskWide", sans-serif;
+            font-weight: bold;
+            transition: all 0.2s ease;
+        }
+
+        .tab.active {
+            color: var(--theRed);
+            border-bottom: 3px solid var(--theRed);
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+            
+            .tabs {
+                flex-direction: column;
+            }
+            
+            .feature-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">DEVTOOL</h1>
+        
+        <div class="tabs">
+            <button class="tab active" onclick="switchTab('generator')">Generator</button>
+            <button class="tab" onclick="switchTab('documentation')">Documentation</button>
+            <button class="tab" onclick="switchTab('examples')">Examples</button>
+        </div>
+
+        <!-- Generator Tab -->
+        <div id="generator" class="tab-content active">
+            <div class="form-section">
+                <h2 class="doc-title">Create Blog Entry</h2>
+                <form id="blogForm">
+                    <div class="form-group">
+                        <label for="smallTitle">Small Title (Date/Category):</label>
+                        <input type="text" id="smallTitle" placeholder="Aug 24, 2025" value="Dec 15, 2024">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="bigTitle">Big Title:</label>
+                        <input type="text" id="bigTitle" placeholder="Major Release v2.0" value="Complete Style System Guide">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="imageSource">Image Source:</label>
+                        <input type="text" id="imageSource" placeholder="localSRC/updates/example.gif" value="localSRC/updates/demo.gif">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="markdownContent">Markdown Content:</label>
+                        <textarea id="markdownContent" placeholder="Enter your markdown content here..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn">Generate JSON</button>
+                </form>
+            </div>
+
+            <div id="outputSection" class="output-section" style="display: none;">
+                <h3 class="doc-title">Generated JSON</h3>
+                <div id="jsonOutput" class="output-json"></div>
+                <button class="btn copy-btn" onclick="copyToClipboard()">Copy JSON</button>
+            </div>
+        </div>
+
+        <!-- Documentation Tab -->
+        <div id="documentation" class="tab-content">
+            <div class="documentation">
+                <h2 class="doc-title">📝 Markdown Syntax Guide</h2>
+                
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h3>🎯 Basic Formatting</h3>
+                        <div class="syntax-example"># Heading 1
+## Heading 2
+### Heading 3
+
+**Bold text**
+*Italic text*
+`Inline code`
+
+> Blockquote text</div>
+                    </div>
+
+                    <div class="feature-card">
+                        <h3>📋 Lists</h3>
+                        <div class="syntax-example">- Unordered list item
+- Another item
+  - Nested item
+
+1. Ordered list item  
+2. Second item
+3. Third item</div>
+                    </div>
+
+                    <div class="feature-card">
+                        <h3>💾 Code Blocks</h3>
+                        <div class="syntax-example">```javascript
+const example = "Hello World";
+console.log(example);
+```
+
+```python
+def greet(name):
+    return f"Hello, {name}!"
+```</div>
+                    </div>
+
+                    <div class="feature-card">
+                        <h3>🔗 Links & Tables</h3>
+                        <div class="syntax-example">[Link text](https://example.com)
+
+| Header 1 | Header 2 |
+|----------|----------|
+| Cell 1   | Cell 2   |
+| Cell 3   | Cell 4   |</div>
+                    </div>
+                </div>
+
+                <h2 class="doc-title">🎨 Advanced Layout Features</h2>
+                
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h3>🖼️ Image Positioning</h3>
+                        <div class="syntax-example">{{image-left}}
+https://example.com/image.jpg
+Caption text here
+{{/image-left}}
+
+{{image-right}}
+https://example.com/image.jpg
+Caption text here
+{{/image-right}}
+
+{{image-center}}
+https://example.com/image.jpg
+Caption text here
+{{/image-center}}</div>
+                    </div>
+
+                    <div class="feature-card">
+                        <h3>🎥 Video Embedding</h3>
+                        <div class="syntax-example">{{video-center}}
+https://youtube.com/embed/VIDEO_ID
+{{/video-center}}
+
+{{video-left}}
+https://vimeo.com/VIDEO_ID
+{{/video-left}}</div>
+                    </div>
+
+                    <div class="feature-card">
+                        <h3>🖼️ Image Galleries</h3>
+                        <div class="syntax-example">{{gallery-start}}
+{{image}}
+https://example.com/img1.jpg
+Caption 1
+{{/image}}
+
+{{image}}
+https://example.com/img2.jpg
+Caption 2
+{{/image}}
+{{gallery-end}}</div>
+                    </div>
+
+                    <div class="feature-card">
+                        <h3>⚡ Utility Tags</h3>
+                        <div class="syntax-example">{{clear}}
+<!-- Clears floated elements -->
+
+{{flex-start}}
+Content in flexible layout
+{{flex-end}}
+
+{{grid-start}}
+Content in grid layout
+{{grid-end}}</div>
+                    </div>
+                </div>
+
+                <h2 class="doc-title">📐 Size Classes</h2>
+                <div class="syntax-example">{{image-small}}     <!-- max-width: 300px -->
+{{image-medium}}    <!-- max-width: 500px -->
+{{image-large}}     <!-- max-width: 700px -->
+{{image-full}}      <!-- width: 100% -->
+
+{{video-small}}     <!-- Same sizing applies -->
+{{video-medium}}    <!-- to video elements -->
+{{video-large}}
+{{video-full}}</div>
+            </div>
+        </div>
+
+        <!-- Examples Tab -->
+        <div id="examples" class="tab-content">
+            <div class="documentation">
+                <h2 class="doc-title">📋 Complete Example</h2>
+                <p>Here's a comprehensive example showing all features:</p>
+                
+                <div class="syntax-example" id="exampleMarkdown"># Complete Style System Guide
+
+Welcome to our comprehensive markdown system! This guide demonstrates every feature available in our advanced styling system.
+
+## 🎯 Text Formatting
+
+You can use **bold text**, *italic text*, and `inline code` throughout your content. Here's a blockquote example:
+
+> "The best way to predict the future is to create it." - Peter Drucker
+
+## 📋 Lists and Structure
+
+### Unordered Lists
+- Feature-rich markdown support
+- Advanced image and video handling
+- Responsive design system
+- Custom CSS integration
+
+### Ordered Lists
+1. Plan your content structure
+2. Write your markdown
+3. Generate the JSON
+4. Integrate with your system
+
+## 💾 Code Examples
+
+```javascript
+// Advanced markdown renderer
+const renderer = new MarkdownRenderer({
+    syntaxHighlighting: true,
+    imageGalleries: true,
+    videoSupport: true,
+    responsiveDesign: true
+});
+
+renderer.render(content);
+```
+
+```python
+def process_markdown(content):
+    """Process markdown with custom extensions"""
+    return markdown.markdown(content, extensions=[
+        'codehilite',
+        'tables',
+        'toc'
+    ])
+```
+
+## 🖼️ Image Layouts
+
+{{image-left}}
+https://picsum.photos/400/300?random=1
+This image floats to the left, allowing text to wrap around it naturally.
+{{/image-left}}
+
+This text flows around the left-aligned image. Our layout system automatically handles responsive behavior, ensuring your content looks great on all devices. The image will stack above the text on mobile devices for better readability.
+
+{{clear}}
+
+{{image-right}}
+https://picsum.photos/400/300?random=2
+This image floats to the right with a descriptive caption.
+{{/image-right}}
+
+Similarly, right-aligned images provide excellent layout flexibility. You can combine multiple floating images with clear tags to create magazine-style layouts that are both visually appealing and functional.
+
+{{clear}}
+
+## 📸 Image Gallery
+
+{{gallery-start}}
+{{image}}
+https://picsum.photos/300/200?random=3
+Gallery image 1 with lightbox support
+{{/image}}
+
+{{image}}
+https://picsum.photos/300/200?random=4
+Gallery image 2 with hover effects
+{{/image}}
+
+{{image}}
+https://picsum.photos/300/200?random=5
+Gallery image 3 with responsive grid
+{{/image}}
+{{gallery-end}}
+
+## 🎥 Video Integration
+
+{{video-center}}
+https://www.youtube.com/embed/dQw4w9WgXcQ
+{{/video-center}}
+
+## 📊 Data Tables
+
+| Feature | Status | Priority |
+|---------|--------|----------|
+| Markdown Parsing | ✅ Complete | High |
+| Image Galleries | ✅ Complete | High |
+| Video Embedding | ✅ Complete | Medium |
+| Responsive Design | ✅ Complete | High |
+| Syntax Highlighting | ✅ Complete | Medium |
+
+## 🔗 Links and References
+
+Check out our [documentation](https://example.com) for more advanced features, or visit our [GitHub repository](https://github.com/example) to contribute to the project.
+
+---
+
+**Next Steps:** Explore the advanced customization options and integrate this system into your workflow!</div>
+                
+                <button class="btn" onclick="loadExample()">Load This Example</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Tab switching functionality
+        function switchTab(tabName) {
+            // Hide all tab contents
+            document.querySelectorAll('.tab-content').forEach(content => {
+                content.classList.remove('active');
+            });
+            
+            // Remove active class from all tabs
+            document.querySelectorAll('.tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            
+            // Show selected tab content
+            document.getElementById(tabName).classList.add('active');
+            
+            // Add active class to clicked tab
+            event.target.classList.add('active');
+        }
+
+        // Load example into form
+        function loadExample() {
+            const exampleContent = document.getElementById('exampleMarkdown').textContent;
+            document.getElementById('markdownContent').value = exampleContent;
+            switchTab('generator');
+        }
+
+        // Load existing JSON file
+        let existingData = [];
+        
+        async function loadExistingJson() {
+            try {
+                const response = await fetch('../infoupdates.json');
+                if (response.ok) {
+                    existingData = await response.json();
+                    console.log('Loaded existing data:', existingData.length, 'entries');
+                    updateStatus('✅ Loaded existing infoupdates.json (' + existingData.length + ' entries)');
+                } else {
+                    console.warn('Could not load infoupdates.json, will create new array');
+                    updateStatus('⚠️ Could not load infoupdates.json, will create new file');
+                }
+            } catch (error) {
+                console.warn('Error loading infoupdates.json:', error);
+                updateStatus('⚠️ Could not access infoupdates.json, will create new file');
+            }
+        }
+
+        function updateStatus(message) {
+            let statusDiv = document.getElementById('loadStatus');
+            if (!statusDiv) {
+                statusDiv = document.createElement('div');
+                statusDiv.id = 'loadStatus';
+                statusDiv.style.cssText = `
+                    background: rgba(178, 25, 39, 0.1);
+                    border: 1px solid var(--theRed);
+                    border-radius: 8px;
+                    padding: 1rem;
+                    margin-bottom: 1rem;
+                    font-family: 'Courier New', monospace;
+                    font-size: 0.9rem;
+                `;
+                document.querySelector('.form-section').insertBefore(statusDiv, document.querySelector('.form-section h2').nextSibling);
+            }
+            statusDiv.textContent = message;
+        }
+
+        // Form submission handler
+        document.getElementById('blogForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const smallTitle = document.getElementById('smallTitle').value;
+            const bigTitle = document.getElementById('bigTitle').value;
+            const imageSource = document.getElementById('imageSource').value;
+            const markdownContent = document.getElementById('markdownContent').value;
+            
+            // Convert markdown content to array of lines
+            const contentLines = markdownContent.split('\n').map(line => {
+                // Escape quotes and handle special characters
+                return line.replace(/"/g, '\\"');
+            });
+            
+            // Build the new entry
+            const newEntry = {
+                smallTitle: smallTitle,
+                bigTitle: bigTitle,
+                imageSource: imageSource,
+                content: contentLines
+            };
+            
+            // Add new entry at index 0 (beginning of array)
+            const updatedData = [newEntry, ...existingData];
+            
+            // Display formatted JSON
+            const formattedJson = JSON.stringify(updatedData, null, 4);
+            document.getElementById('jsonOutput').textContent = formattedJson;
+            document.getElementById('outputSection').style.display = 'block';
+            
+            // Update download button with new data
+            updateDownloadButton(updatedData);
+            
+            // Scroll to output
+            document.getElementById('outputSection').scrollIntoView({ behavior: 'smooth' });
+        });
+
+        // Copy to clipboard functionality
+        function copyToClipboard() {
+            const jsonText = document.getElementById('jsonOutput').textContent;
+            navigator.clipboard.writeText(jsonText).then(() => {
+                const btn = document.querySelector('.copy-btn');
+                const originalText = btn.textContent;
+                btn.textContent = 'Copied!';
+                btn.style.background = '#28a745';
+                
+                setTimeout(() => {
+                    btn.textContent = originalText;
+                    btn.style.background = '#238636';
+                }, 2000);
+            });
+        }
+
+        // Initialize with default content
+        window.addEventListener('load', function() {
+            const defaultContent = `# Welcome to the Style System
+
+This is a demonstration of our advanced markdown system with custom layout features.
+
+## Features Overview
+
+- **Rich text formatting** with custom fonts
+- **Advanced image layouts** (left, right, center, galleries)
+- **Video embedding** support
+- **Responsive design** for all devices
+- **Syntax highlighting** for code blocks
+
+## Image Example
+
+{{image-center}}
+https://picsum.photos/600/300?random=demo
+Demo image with center alignment and caption
+{{/image-center}}
+
+## Code Example
+
+\`\`\`javascript
+function createBlogPost() {
+    return {
+        title: "Amazing Blog Post",
+        content: generateMarkdown(),
+        timestamp: new Date()
+    };
+}
+\`\`\`
+
+Ready to create your own content? Use the form above!`;
+
+            document.getElementById('markdownContent').value = defaultContent;
+        });
+    </script>
+</body>
+</html>
