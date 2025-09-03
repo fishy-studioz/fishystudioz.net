@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Overheat</title>
+    <title>OVERHEAT</title>
     <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
     <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
@@ -71,10 +71,22 @@
       </div>
     </section>
 
-    <div id="gameplay fullscreen">
-
+    <div id="gameplay" class="fullscreen">
+      <h1 class="title">Watch A 15-Minute GAMEPLAY</h1>
+      <button id="playBtn" class="play-arrow large-play" aria-label="Play Gameplay Video">
+        <svg width="120" height="120" viewBox="0 0 120 120">
+          <circle cx="60" cy="60" r="55" fill="#fff" opacity="1"/>
+          <!-- Move polygon points 6px left: subtract 6 from each x value -->
+          <polygon points="44,38 84,60 44,82" fill="#b21927"/>
+        </svg>
+      </button>
     </div>
-    
+    <div id="videoOverlay" class="video-overlay" style="display:none;">
+      <div class="video-center">
+        <button id="closeVideo" class="close-btn" aria-label="Close Video">&times;</button>
+        <iframe id="ytplayer" width="900" height="506" src="" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
 
     <div id="showcase">
       <div id="scrollingText">
@@ -162,12 +174,11 @@
           <span>Read our <a target="_blank" href="/dev-updates/">Developer Updates!</a></span><br>
           <span>Business Inquiry Mail: <a target="_blank" href="mailto:fishystudioz@protonmail.com">fishystudioz@protonmail.com</a></span>
         </div>
-      
       </div>
-    </footer>
+    </footer>   
 
-    
 </body>
+
 <script src="loader.js"></script>
 <script src="script.js"></script>
 <script src="devlist.js"></script>
@@ -175,4 +186,5 @@
 <script src="tdModelloader.js"></script>
 <script src="john.js"></script>
 <script src="footer.js"></script>
+<script src="video.js"></script>
 </html>

@@ -726,6 +726,14 @@ body.freeze-scroll {
     position: relative;
 }
 
+
+#gameplay{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
 #showcase {
     width: 100dvw;
     height: 500dvh;
@@ -991,4 +999,95 @@ body.freeze-scroll {
         gap: 15px;
         font-size: 0.9rem;
     }
+}
+
+.play-arrow {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+  transition: transform 0.2s;
+  z-index: 10;
+}
+.play-arrow:hover {
+  transform: scale(1.08);
+}
+
+.video-overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background: rgba(16,16,16,0.95);
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 0.5s;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.video-center {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.close-btn {
+  position: absolute;
+  top: -40px;
+  right: 0;
+  font-size: 3rem;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  z-index: 100;
+  transition: color 0.2s;
+}
+.close-btn:hover {
+  color: #b21927;
+}
+@media (max-width: 900px) {
+  #ytplayer {
+    width: 90vw;
+    height: 50vw;
+    min-height: 200px;
+  }
+}
+
+.large-play {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 3rem;
+  margin-top: 0.5rem;
+  /* Center vertically with the title */
+}
+
+#gameplay {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  #gameplay {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .large-play {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
 }
