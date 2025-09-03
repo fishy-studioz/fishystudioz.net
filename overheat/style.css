@@ -190,6 +190,8 @@ html{
 
 #devList{
     height: fit-content !important;
+    padding-top: 5%;
+    background-color: #0a0a0a;
 }
 
 .cards-grid {
@@ -774,6 +776,7 @@ body.freeze-scroll {
     height: max-content;
     padding-bottom: 15dvh;
     z-index: 2;
+    background-color: #0a0a0a;
 }
 
 .lowGlore {
@@ -824,9 +827,10 @@ body.freeze-scroll {
     }
 }
 
+#footer{background-color: #0a0a0a;}
 
 #footer-3d-container {
-    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(8, 8, 8, 1), transparent);
+    background-color: #0a0a0a;
     z-index: 1;
 }
 
@@ -841,6 +845,7 @@ body.freeze-scroll {
     flex-direction: column;
     padding: 0 10px;
     box-sizing: border-box;
+    background-color: #0a0a0a;
 }
 
 .logos {
@@ -853,6 +858,7 @@ body.freeze-scroll {
     flex-direction: row;
     width: 100%;
     height: max-content;
+    padding-bottom: 10%;
 }
 
 .logos > div {
