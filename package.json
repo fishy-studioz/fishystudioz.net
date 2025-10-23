@@ -1,0 +1,28 @@
+{
+  "name": "fishystudioz.net",
+  "version": "1.0.0",
+  "description": "[![Netlify](https://api.netlify.com/api/v1/badges/fb2a9964-aece-4f56-b4ec-13a735f44433/deploy-status)](https://app.netlify.com/sites/fishy-studioz/deploys) ![Live](https://github.com/fishy-studioz/fishy-studioz.github.io/actions/workflows/static.yml/badge.svg)",
+  "main": "footer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",    
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fishy-studioz/fishystudioz.net.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fishy-studioz/fishystudioz.net/issues"
+  },
+  "homepage": "https://github.com/fishy-studioz/fishystudioz.net#readme",
+  "dependencies": {
+    "next": "^16.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  }
+}

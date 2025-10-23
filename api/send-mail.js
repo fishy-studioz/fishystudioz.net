@@ -20,7 +20,7 @@ export default async function handler(req, res) {
       return res.status(400).json({ error: 'Invalid email format' });
     }
     const BREVO_API_KEY = process.env.BREVO_API_KEY;
-    const RECIPIENT_EMAIL = process.env.RECIPIENT_EMAIL || 'fishystudioz@protonmail.com';
+    const RECIPIENT_EMAIL = process.env.RECIPIENT_EMAIL || 'inquiry@fishystudioz.net';
 
     if (!BREVO_API_KEY) {
       return res.status(500).json({ error: 'Server configuration error' });
@@ -35,7 +35,7 @@ export default async function handler(req, res) {
     const emailData = {
       sender: {
         name: "Contact Form",
-        email: "fordonthego2008@yahoo.com"
+        email: "inquiry@fishystudioz.net"
       },
       to: [
         {
