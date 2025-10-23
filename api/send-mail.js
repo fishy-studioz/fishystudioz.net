@@ -31,7 +31,6 @@ export default async function handler(req, res) {
     const domain = `${protocol}://${host}`;
     const headerImgUrl = `${domain}/src/fishyHeader.png`;
 
-    // Prepare email data
     const emailData = {
       sender: {
         name: "Contact Form",
