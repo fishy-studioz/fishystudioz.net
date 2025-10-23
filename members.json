@@ -80,5 +80,14 @@
       "x": "https://x.com/mrdanpandan"
     },
     "uid":"870959618984136747"
+  },
+  {
+    "name": "LetDowntoVoid",
+    "description":"Programmer",
+    "image":"src/dev/pholder.png",
+    "socials":{
+      "x":"https://x.com/letdowntovoid"
+    },
+    "uid" : "840202397942808637"
   }
 ]

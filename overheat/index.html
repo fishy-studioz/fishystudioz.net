@@ -72,14 +72,17 @@
     </section>
 
     <div id="gameplay" class="fullscreen">
-      <h1 class="title">Watch A 15-Minute GAMEPLAY</h1>
-      <button id="playBtn" class="play-arrow large-play" aria-label="Play Gameplay Video">
-        <svg width="120" height="120" viewBox="0 0 120 120">
-          <circle cx="60" cy="60" r="55" fill="#fff" opacity="1"/>
-          <!-- Move polygon points 6px left: subtract 6 from each x value -->
-          <polygon points="44,38 84,60 44,82" fill="#b21927"/>
-        </svg>
-      </button>
+      <div class="trailer-background-text">TRAILER</div>
+      <div class="trailer-content">
+        <h1 class="trailer-title">WATCH THE TRAILER</h1>
+        <div class="video-wrapper">
+          <iframe 
+            src="https://www.youtube.com/embed/A4YAtzTbeug" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
     </div>
     <div id="videoOverlay" class="video-overlay" style="display:none;">
       <div class="video-center">
