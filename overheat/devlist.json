@@ -1,4 +1,4 @@
-[
+   [
   {
     "name": "CharSiewGuy",
     "description": "founder & programmer",
@@ -83,11 +83,20 @@
   },
   {
     "name": "LetDowntoVoid",
-    "description":"Programmer",
+    "description": "programmer",
     "image":"src/dev/pholder.png",
     "socials":{
       "x":"https://x.com/letdowntovoid"
     },
     "uid" : "840202397942808637"
+  },
+  {
+    "name": "Penngo",
+    "description": "composer",
+    "image":"src/dev/pholder.png",
+    "socials":{
+      "youtube": "https://www.youtube.com/channel/UCO72_V8g19-Lx88kf7fJJcQ"
+    },
+    "uid" : "1200912324136026193"
   }
 ]
